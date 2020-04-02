@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FFFF48C237671F500C9A177"
-               BuildableName = "SampleApp.app"
-               BlueprintName = "SampleApp"
+               BuildableName = "SampleApp-iOS.app"
+               BlueprintName = "SampleApp-iOS"
                ReferencedContainer = "container:nugu-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FFFF48C237671F500C9A177"
-            BuildableName = "SampleApp.app"
-            BlueprintName = "SampleApp"
+            BuildableName = "SampleApp-iOS.app"
+            BlueprintName = "SampleApp-iOS"
             ReferencedContainer = "container:nugu-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FFFF48C237671F500C9A177"
-            BuildableName = "SampleApp.app"
-            BlueprintName = "SampleApp"
+            BuildableName = "SampleApp-iOS.app"
+            BlueprintName = "SampleApp-iOS"
             ReferencedContainer = "container:nugu-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
