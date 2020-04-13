@@ -20,13 +20,26 @@
 
 import UIKit
 
+import NuguClientKit
+
 class ViewController: UIViewController {
+    
+    lazy var clinet: NuguClient = NuguClient(delegate: self)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
+// MARK: - NuguClientDelegate
+
+extension ViewController: NuguClientDelegate {
+    func nuguClientWillRequireAudioSession() -> Bool {
+        return false
+    }
+    
+    func nuguClientRequestAccessToken() -> String? {
+        return nil
+    }
+}
