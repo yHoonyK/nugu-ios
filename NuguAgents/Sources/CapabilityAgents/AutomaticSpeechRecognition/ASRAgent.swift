@@ -21,7 +21,7 @@
 import Foundation
 
 import NuguCore
-import JadeMarble
+//import JadeMarble
 
 import RxSwift
 
@@ -36,7 +36,7 @@ public final class ASRAgent: ASRAgentProtocol {
     private let directiveSequencer: DirectiveSequenceable
     private let upstreamDataSender: UpstreamDataSendable
     private let audioStream: AudioStreamable
-    fileprivate static var endPointDetector: EndPointDetector?
+//    fileprivate static var endPointDetector: EndPointDetector?
     
     private let asrDispatchQueue = DispatchQueue(label: "com.sktelecom.romaine.asr_agent", qos: .userInitiated)
     
@@ -59,10 +59,10 @@ public final class ASRAgent: ASRAgentProtocol {
             }
 
             // Stop EPD
-            if [.listening, .recognizing].contains(asrState) == false &&
-                [.start, .listening].contains(Self.endPointDetector?.state) {
-                Self.endPointDetector?.stop()
-            }
+//            if [.listening, .recognizing].contains(asrState) == false &&
+//                [.start, .listening].contains(Self.endPointDetector?.state) {
+//                Self.endPointDetector?.stop()
+//            }
             
             // Notify delegates only if the agent's status changes.
             if oldValue != asrState {
@@ -161,7 +161,7 @@ public final class ASRAgent: ASRAgentProtocol {
         directiveSequencer: DirectiveSequenceable,
         asrEncoding: ASREncoding = .partial
     ) {
-        Self.endPointDetector = EndPointDetector()
+//        Self.endPointDetector = EndPointDetector()
         
         self.focusManager = focusManager
         self.upstreamDataSender = upstreamDataSender
@@ -170,14 +170,14 @@ public final class ASRAgent: ASRAgentProtocol {
         self.audioStream = audioStream
         self.asrEncoding = asrEncoding
         
-        Self.endPointDetector?.delegate = self
+//        Self.endPointDetector?.delegate = self
         contextManager.add(provideContextDelegate: self)
         focusManager.add(channelDelegate: self)
         directiveSequencer.add(directiveHandleInfos: handleableDirectiveInfos.asDictionary)
     }
     
     deinit {
-        Self.endPointDetector = nil
+//        Self.endPointDetector = nil
         directiveSequencer.remove(directiveHandleInfos: handleableDirectiveInfos.asDictionary)
     }
 }
@@ -458,13 +458,13 @@ private extension ASRAgent {
             return expectTimeout / 1000
         }
         
-        Self.endPointDetector?.start(
-            audioStreamReader: asrRequest.reader,
-            sampleRate: ASRConst.sampleRate,
-            timeout: timeout,
-            maxDuration: ASRConst.maxDuration,
-            pauseLength: ASRConst.pauseLength
-        )
+//        Self.endPointDetector?.start(
+//            audioStreamReader: asrRequest.reader,
+//            sampleRate: ASRConst.sampleRate,
+//            timeout: timeout,
+//            maxDuration: ASRConst.maxDuration,
+//            pauseLength: ASRConst.pauseLength
+//        )
         
         asrState = .listening
         
@@ -564,11 +564,12 @@ extension ASRAgentProtocol {
     /// File that you have for end point detection
     public var epdFile: URL? {
         get {
-            return ASRAgent.endPointDetector?.epdFile
+//            return ASRAgent.endPointDetector?.epdFile
+            return URL(string: "")
         }
         
         set {
-            ASRAgent.endPointDetector?.epdFile = newValue
+//            ASRAgent.endPointDetector?.epdFile = newValue
         }
     }
 }

@@ -53,22 +53,22 @@ public class MicInputProvider: AudioProvidable {
         try beginTappingMicrophone(streamWriter: streamWriter)
         
         // when audio session interrupted, audio engine will be stopped automatically. so we have to handle it.
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(audioSessionInterruption),
-                                               name: AVAudioSession.interruptionNotification,
-                                               object: nil)
-        
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(engineConfigurationChange),
-                                               name: .AVAudioEngineConfigurationChange,
-                                               object: nil)
+//        NotificationCenter.default.addObserver(self,
+//                                               selector: #selector(audioSessionInterruption),
+//                                               name: AVAudioSession.interruptionNotification,
+//                                               object: nil)
+//
+//        NotificationCenter.default.addObserver(self,
+//                                               selector: #selector(engineConfigurationChange),
+//                                               name: .AVAudioEngineConfigurationChange,
+//                                               object: nil)
     }
     
     public func stop() {
         log.debug("try to stop")
         
-        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
         
         streamWriter?.finish()
         streamWriter = nil
@@ -130,13 +130,13 @@ public class MicInputProvider: AudioProvidable {
                 }
             }
         }) {
-            log.error("installTap error: \(error)\n" +
-                "\t\trequested format: \(inputFormat)\n" +
-                "\t\tengine output format: \(audioEngine.inputNode.outputFormat(forBus: audioBus))\n" +
-                "\t\tinput format: \(audioEngine.inputNode.inputFormat(forBus: audioBus))")
-            log.error("\n\t\t\(AVAudioSession.sharedInstance().category)\n" +
-                "\t\t\(AVAudioSession.sharedInstance().categoryOptions)\n" +
-                "\t\taudio session sampleRate: \(AVAudioSession.sharedInstance().sampleRate)")
+//            log.error("installTap error: \(error)\n" +
+//                "\t\trequested format: \(inputFormat)\n" +
+//                "\t\tengine output format: \(audioEngine.inputNode.outputFormat(forBus: audioBus))\n" +
+//                "\t\tinput format: \(audioEngine.inputNode.inputFormat(forBus: audioBus))")
+//            log.error("\n\t\t\(AVAudioSession.sharedInstance().category)\n" +
+//                "\t\t\(AVAudioSession.sharedInstance().categoryOptions)\n" +
+//                "\t\taudio session sampleRate: \(AVAudioSession.sharedInstance().sampleRate)")
             
             throw error
         }
@@ -153,22 +153,22 @@ public class MicInputProvider: AudioProvidable {
     @objc func audioSessionInterruption(notification: Notification) {
         log.debug("audioSessionInterruption")
         
-        guard let info = notification.userInfo,
-            let typeValue = info[AVAudioSessionInterruptionTypeKey] as? UInt,
-            let type = AVAudioSession.InterruptionType(rawValue: typeValue) else {
-                return
-        }
-        
-        if type == .ended {
-            guard let optionsValue =
-                info[AVAudioSessionInterruptionOptionKey] as? UInt else {
-                    return
-            }
-            let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
-            if options.contains(.shouldResume) {
-                try? audioEngine.start()
-            }
-        }
+//        guard let info = notification.userInfo,
+//            let typeValue = info[AVAudioSessionInterruptionTypeKey] as? UInt,
+//            let type = AVAudioSession.InterruptionType(rawValue: typeValue) else {
+//                return
+//        }
+//        
+//        if type == .ended {
+//            guard let optionsValue =
+//                info[AVAudioSessionInterruptionOptionKey] as? UInt else {
+//                    return
+//            }
+//            let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
+//            if options.contains(.shouldResume) {
+//                try? audioEngine.start()
+//            }
+//        }
     }
     
     /// recover when the audio engine is stopped by OS.

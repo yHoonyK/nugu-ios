@@ -116,12 +116,12 @@ public class OpusPlayer: MediaPlayable {
         }
         
         // when audio session interrupted, audio engine will be stopped automatically. so we have to handle it.
-        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(audioSessionInterruption), name: AVAudioSession.interruptionNotification, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(audioSessionInterruption), name: AVAudioSession.interruptionNotification, object: nil)
 
         // if audio session is changed and influence AVAudioEngine, we should handle this.
-        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(engineConfigurationChange), name: .AVAudioEngineConfigurationChange, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(engineConfigurationChange), name: .AVAudioEngineConfigurationChange, object: nil)
     }
     
     public func pause() {
@@ -215,50 +215,50 @@ extension OpusPlayer: MediaOpusStreamDataSource {
             throw OpusPlayerError.audioBufferClosed
         }
 
-        audioQueue.async { [weak self] in
-            guard let self = self else { return }
-
-            guard let pcmData = try? OpusDecoder.shared.decode(data: data) else {
-                log.error("opus decode failed")
-                self.delegate?.mediaPlayerDidChange(state: .error(error: OpusPlayerError.decodeFailed))
-                return
-            }
-            
-            // Lasting audio data has to be added to schedule it.
-            var audioDataArray = [Float]()
-            if 0 < self.tempAudioArray.count {
-                audioDataArray.append(contentsOf: self.tempAudioArray)
-                log.debug("temp audio processing: \(self.tempAudioArray.count)")
-                self.tempAudioArray.removeAll()
-            }
-            audioDataArray.append(contentsOf: pcmData)
-            
-            var bufferPosition = 0
-            var pcmBufferArray = [AVAudioPCMBuffer]()
-            while bufferPosition < audioDataArray.count {
-                // if it's not a last data but smaller than chunk size, put it into the tempAudioArray for future processing
-                guard bufferPosition + self.chunkSize < audioDataArray.count else {
-                    self.tempAudioArray.append(contentsOf: audioDataArray[bufferPosition..<audioDataArray.count])
-                    log.info("tempAudio size: \(self.tempAudioArray.count), chunkSize: \(self.chunkSize)")
-                    break
-                }
-                
-                // though the data is smaller than chunk, but it has to be scheduled.
-                let bufferSize = min(self.chunkSize, audioDataArray.count - bufferPosition)
-                let chunk = Array(audioDataArray[bufferPosition..<(bufferPosition + bufferSize)])
-                guard let pcmBuffer = chunk.pcmBuffer(format: self.audioFormat) else {
-                    continue
-                }
-                
-                pcmBufferArray.append(pcmBuffer)
-                bufferPosition += bufferSize
-            }
-            
-            if 0 < pcmBufferArray.count {
-                self.audioBuffers.append(contentsOf: pcmBufferArray)
-                self.prepareBuffer()
-            }
-        }
+//        audioQueue.async { [weak self] in
+//            guard let self = self else { return }
+//
+//            guard let pcmData = try? OpusDecoder.shared.decode(data: data) else {
+//                log.error("opus decode failed")
+//                self.delegate?.mediaPlayerDidChange(state: .error(error: OpusPlayerError.decodeFailed))
+//                return
+//            }
+//
+//            // Lasting audio data has to be added to schedule it.
+//            var audioDataArray = [Float]()
+//            if 0 < self.tempAudioArray.count {
+//                audioDataArray.append(contentsOf: self.tempAudioArray)
+//                log.debug("temp audio processing: \(self.tempAudioArray.count)")
+//                self.tempAudioArray.removeAll()
+//            }
+//            audioDataArray.append(contentsOf: pcmData)
+//
+//            var bufferPosition = 0
+//            var pcmBufferArray = [AVAudioPCMBuffer]()
+//            while bufferPosition < audioDataArray.count {
+//                // if it's not a last data but smaller than chunk size, put it into the tempAudioArray for future processing
+//                guard bufferPosition + self.chunkSize < audioDataArray.count else {
+//                    self.tempAudioArray.append(contentsOf: audioDataArray[bufferPosition..<audioDataArray.count])
+//                    log.info("tempAudio size: \(self.tempAudioArray.count), chunkSize: \(self.chunkSize)")
+//                    break
+//                }
+//
+//                // though the data is smaller than chunk, but it has to be scheduled.
+//                let bufferSize = min(self.chunkSize, audioDataArray.count - bufferPosition)
+//                let chunk = Array(audioDataArray[bufferPosition..<(bufferPosition + bufferSize)])
+//                guard let pcmBuffer = chunk.pcmBuffer(format: self.audioFormat) else {
+//                    continue
+//                }
+//
+//                pcmBufferArray.append(pcmBuffer)
+//                bufferPosition += bufferSize
+//            }
+//
+//            if 0 < pcmBufferArray.count {
+//                self.audioBuffers.append(contentsOf: pcmBufferArray)
+//                self.prepareBuffer()
+//            }
+//        }
     }
 }
 
@@ -340,21 +340,21 @@ private extension OpusPlayer {
                         self.delegate?.mediaPlayerDidChange(state: .finish)
                         
                         #if DEBUG
-                        OpusDecoder.shared.dump()
+//                        OpusDecoder.shared.dump()
                         let appendedFilename = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("silver_tray_appended.raw")
                         let consumedFilename = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("silver_tray_consumed.raw")
-                        do {
-                            if let allPCMArray = try? OpusDecoder.shared.decode(data: self.appendedData) {
-                                let allData = Data(bytes: allPCMArray, count: allPCMArray.count*4)
-                                try allData.write(to: appendedFilename)
-                                try self.consumedData.write(to: consumedFilename)
-                                
-                                log.debug("appended data to file :\(appendedFilename)")
-                                log.debug("consumed data to file :\(consumedFilename)")
-                            }
-                        } catch {
-                            log.debug(error)
-                        }
+//                        do {
+//                            if let allPCMArray = try? OpusDecoder.shared.decode(data: self.appendedData) {
+//                                let allData = Data(bytes: allPCMArray, count: allPCMArray.count*4)
+//                                try allData.write(to: appendedFilename)
+//                                try self.consumedData.write(to: consumedFilename)
+//
+//                                log.debug("appended data to file :\(appendedFilename)")
+//                                log.debug("consumed data to file :\(consumedFilename)")
+//                            }
+//                        } catch {
+//                            log.debug(error)
+//                        }
                         #endif
                         
                         return
@@ -394,8 +394,8 @@ private extension OpusPlayer {
      - ex) AVAudioSession is changed when the audio engine is stopped. but this notification is not removed yet.
      */
     func reset() {
-        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: AVAudioSession.interruptionNotification, object: nil)
+//        NotificationCenter.default.removeObserver(self, name: .AVAudioEngineConfigurationChange, object: nil)
         
         self.player.stop()
         self.engine.stop()
@@ -413,32 +413,32 @@ private extension OpusPlayer {
     func audioSessionInterruption(notification: Notification) {
         log.debug("audioSessionInterruption")
         
-        guard let info = notification.userInfo,
-            let typeValue = info[AVAudioSessionInterruptionTypeKey] as? UInt,
-            let type = AVAudioSession.InterruptionType(rawValue: typeValue) else {
-                return
-        }
-        
-        if type == .ended {
-            guard let optionsValue =
-                info[AVAudioSessionInterruptionOptionKey] as? UInt else {
-                    return
-            }
-            let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
-            if options.contains(.shouldResume) {
-                if let objcException = (ObjcExceptionCatcher.objcTry { [weak self] in
-                    guard let self = self else { return }
-                    log.debug("resume offset: \(self.offset.truncatedSeconds)")
-                    if self.player.isPlaying == false {
-                        self.engine.connect(self.player, to: self.engine.mainMixerNode, format: self.audioFormat)
-                    }
-                    
-                    try? self.engineInit()
-                }) {
-                    delegate?.mediaPlayerDidChange(state: .error(error: objcException))
-                }
-            }
-        }
+//        guard let info = notification.userInfo,
+//            let typeValue = info[AVAudioSessionInterruptionTypeKey] as? UInt,
+//            let type = AVAudioSession.InterruptionType(rawValue: typeValue) else {
+//                return
+//        }
+//
+//        if type == .ended {
+//            guard let optionsValue =
+//                info[AVAudioSessionInterruptionOptionKey] as? UInt else {
+//                    return
+//            }
+//            let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
+//            if options.contains(.shouldResume) {
+//                if let objcException = (ObjcExceptionCatcher.objcTry { [weak self] in
+//                    guard let self = self else { return }
+//                    log.debug("resume offset: \(self.offset.truncatedSeconds)")
+//                    if self.player.isPlaying == false {
+//                        self.engine.connect(self.player, to: self.engine.mainMixerNode, format: self.audioFormat)
+//                    }
+//
+//                    try? self.engineInit()
+//                }) {
+//                    delegate?.mediaPlayerDidChange(state: .error(error: objcException))
+//                }
+//            }
+//        }
     }
 
     func engineConfigurationChange(notification: Notification) {
