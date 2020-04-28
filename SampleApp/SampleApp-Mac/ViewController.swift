@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  SampleApp-macOS
+//  SampleApp-Mac
 //
-//  Created by yonghoonKwon on 2020/04/02.
+//  Created by yonghoonKwon on 2020/04/28.
 //  Copyright (c) 2020 SK Telecom Co., Ltd. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,9 +23,9 @@ import Cocoa
 import NuguClientKit
 
 class ViewController: NSViewController {
-    
-    lazy var client: NuguClient = NuguClient(delegate: self)
 
+    lazy var client: NuguClient = NuguClient(delegate: self)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,14 +40,14 @@ class ViewController: NSViewController {
 }
 
 // MARK: - NuguClientDelegate
+// TODO: -
 
 extension ViewController: NuguClientDelegate {
     func nuguClientWillRequireAudioSession() -> Bool {
-        return false
+        return true
     }
     
     func nuguClientRequestAccessToken() -> String? {
         return nil
     }
 }
-

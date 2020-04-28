@@ -1,8 +1,8 @@
 //
 //  ExtensionDelegate.swift
-//  SampleApp-WatchOS WatchKit Extension
+//  SampleApp-watchOS WatchKit Extension
 //
-//  Created by yonghoonKwon on 2020/04/02.
+//  Created by yonghoonKwon on 2020/04/28.
 //  Copyright (c) 2020 SK Telecom Co., Ltd. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");

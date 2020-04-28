@@ -13,6 +13,9 @@ Nugu framework for AI Service
   s.documentation_url = 'https://developers.nugu.co.kr'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target  = '10.12'
+  s.watchos.deployment_target  = '6.0'
+  s.tvos.deployment_target  = '11.0'
 
   s.swift_version = '5.1'
 
@@ -23,7 +26,7 @@ Nugu framework for AI Service
   s.libraries = 'c++'
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/NuguCore/NuguCore/Libraries/**' }
 
-  s.dependency 'JadeMarble', '~> 0'
+  #s.dependency 'JadeMarble', '~> 0'
   s.dependency 'NattyLog', '~> 1.0'
   s.dependency 'RxSwift', '~> 5'
 

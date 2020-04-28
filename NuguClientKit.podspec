@@ -13,6 +13,9 @@ Default Instances for Nugu service
   s.documentation_url = 'https://developers.nugu.co.kr'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target  = '10.12'
+  s.watchos.deployment_target  = '6.0'
+  s.tvos.deployment_target  = '11.0'
 
   s.swift_version = '5.1'
   
@@ -20,7 +23,7 @@ Default Instances for Nugu service
 
   s.dependency 'NuguCore', '~> 0'
   s.dependency 'NuguAgents', '~> 0'
-  s.dependency 'KeenSense', '~> 0'
+  # s.dependency 'KeenSense', '~> 0'
 
   s.dependency 'NattyLog', '~> 1'
 end

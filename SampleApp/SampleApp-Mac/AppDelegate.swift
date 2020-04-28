@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
-//  SampleApp-tvOS
+//  AppDelegate.swift
+//  SampleApp-Mac
 //
-//  Created by yonghoonKwon on 2020/04/02.
+//  Created by yonghoonKwon on 2020/04/28.
 //  Copyright (c) 2020 SK Telecom Co., Ltd. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,28 +18,16 @@
 //  limitations under the License.
 //
 
-import UIKit
+import Cocoa
 
-import NuguClientKit
-
-class ViewController: UIViewController {
+@NSApplicationMain
+class AppDelegate: NSObject, NSApplicationDelegate {
     
-    lazy var clinet: NuguClient = NuguClient(delegate: self)
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Insert code here to initialize your application
     }
-}
 
-// MARK: - NuguClientDelegate
-
-extension ViewController: NuguClientDelegate {
-    func nuguClientWillRequireAudioSession() -> Bool {
-        return false
-    }
-    
-    func nuguClientRequestAccessToken() -> String? {
-        return nil
+    func applicationWillTerminate(_ aNotification: Notification) {
+        // Insert code here to tear down your application
     }
 }

@@ -13,6 +13,9 @@ Default Agent Implementations for Nugu service
   s.documentation_url = 'https://developers.nugu.co.kr'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target  = '10.12'
+  s.watchos.deployment_target  = '6.0'
+  s.tvos.deployment_target  = '11.0'
 
   s.swift_version = '5.1'
   

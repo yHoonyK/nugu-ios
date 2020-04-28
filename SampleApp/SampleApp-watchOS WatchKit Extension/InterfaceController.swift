@@ -1,8 +1,8 @@
 //
 //  InterfaceController.swift
-//  SampleApp-WatchOS WatchKit Extension
+//  SampleApp-watchOS WatchKit Extension
 //
-//  Created by yonghoonKwon on 2020/04/02.
+//  Created by yonghoonKwon on 2020/04/28.
 //  Copyright (c) 2020 SK Telecom Co., Ltd. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,9 +21,11 @@
 import WatchKit
 import Foundation
 
-import NuguAgents
+import NuguClientKit
 
 class InterfaceController: WKInterfaceController {
+    
+    lazy var client: NuguClient = NuguClient(delegate: self)
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -41,4 +43,17 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+}
+
+// MARK: - NuguClientDelegate
+// TODO: -
+
+extension InterfaceController: NuguClientDelegate {
+    func nuguClientWillRequireAudioSession() -> Bool {
+        return true
+    }
+    
+    func nuguClientRequestAccessToken() -> String? {
+        return nil
+    }
 }

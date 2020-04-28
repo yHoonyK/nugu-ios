@@ -7,40 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F1008CE2379221500D90FEE /* NuguClientKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; };
-		1F1008CF2379221500D90FEE /* NuguClientKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F1008D02379221700D90FEE /* KeenSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */; };
-		1F1008D12379221700D90FEE /* KeenSense.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F1008F22379247800D90FEE /* JadeMarble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03123753FA200C9A177 /* JadeMarble.framework */; };
-		1F1008F32379247800D90FEE /* JadeMarble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03123753FA200C9A177 /* JadeMarble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F1008F62379247800D90FEE /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
-		1F1008F72379247800D90FEE /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F10099A2387994B00D90FEE /* TimeIntervallicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1009992387994B00D90FEE /* TimeIntervallicTests.swift */; };
-		1F119EA42435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F119EA32435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1F119EAA2435DF4E00D0DD70 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EA82435DF4E00D0DD70 /* Interface.storyboard */; };
-		1F119EAC2435DF4F00D0DD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EAB2435DF4F00D0DD70 /* Assets.xcassets */; };
-		1F119EB32435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F119EB22435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1F119EB82435DF4F00D0DD70 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119EB72435DF4F00D0DD70 /* InterfaceController.swift */; };
-		1F119EBA2435DF4F00D0DD70 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119EB92435DF4F00D0DD70 /* ExtensionDelegate.swift */; };
-		1F119EBC2435DF4F00D0DD70 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119EBB2435DF4F00D0DD70 /* NotificationController.swift */; };
-		1F119EBE2435DF4F00D0DD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EBD2435DF4F00D0DD70 /* Assets.xcassets */; };
-		1F119ED32435E10F00D0DD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119ED22435E10F00D0DD70 /* AppDelegate.swift */; };
-		1F119ED52435E10F00D0DD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119ED42435E10F00D0DD70 /* ViewController.swift */; };
-		1F119ED82435E10F00D0DD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F119ED62435E10F00D0DD70 /* Main.storyboard */; };
-		1F119EDA2435E11000D0DD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F119ED92435E11000D0DD70 /* Assets.xcassets */; };
-		1F119EDD2435E11000D0DD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EDB2435E11000D0DD70 /* LaunchScreen.storyboard */; };
-		1F119EE92435E24800D0DD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119EE82435E24800D0DD70 /* AppDelegate.swift */; };
-		1F119EEB2435E24800D0DD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F119EEA2435E24800D0DD70 /* ViewController.swift */; };
-		1F119EED2435E24900D0DD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EEC2435E24900D0DD70 /* Assets.xcassets */; };
-		1F119EF02435E24900D0DD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F119EEE2435E24900D0DD70 /* Main.storyboard */; };
-		1F119F3E243C505600D0DD70 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
-		1F119F3F243C505600D0DD70 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F119F48243C522C00D0DD70 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
-		1F119F49243C522D00D0DD70 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F119F7524441E9F00D0DD70 /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
-		1F119F7624441E9F00D0DD70 /* NuguAgents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F1386512444390600E7FC14 /* NuguClientKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; };
-		1F1386522444390600E7FC14 /* NuguClientKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F2E8009238FCD4400569C59 /* JadeMarble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03123753FA200C9A177 /* JadeMarble.framework */; };
 		1F2E800A238FCD4400569C59 /* KeenSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */; };
 		1F2E800B238FCD4400569C59 /* NuguClientKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; };
@@ -68,10 +35,6 @@
 		1F9C5B8823FA82D90086CC04 /* ExtensionAgentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8723FA82D90086CC04 /* ExtensionAgentSpec.swift */; };
 		1F9C5B8A23FBA3A20086CC04 /* TextAgentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8923FBA3A20086CC04 /* TextAgentSpec.swift */; };
 		1F9C5B8C23FBA7400086CC04 /* MockFocusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8B23FBA7400086CC04 /* MockFocusManager.swift */; };
-		1F9D35FB24444EDB00EFF4FD /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
-		1F9D35FC24444EDB00EFF4FD /* NuguAgents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F9D35FF24444EDB00EFF4FD /* NuguClientKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; };
-		1F9D360024444EDB00EFF4FD /* NuguClientKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FD1CFD423A3506C0000FB8C /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFD323A3506C0000FB8C /* KeychainHelper.swift */; };
 		1FD1CFE823AE30300000FB8C /* NuguOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFE723AE30300000FB8C /* NuguOAuthClient.swift */; };
 		1FD1CFEB23AE3C060000FB8C /* ClientCredentialsGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFEA23AE3C060000FB8C /* ClientCredentialsGrant.swift */; };
@@ -156,54 +119,8 @@
 		1FFFF476237580F500C9A177 /* NuguButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF45F237580F500C9A177 /* NuguButton.swift */; };
 		1FFFF477237580F500C9A177 /* NuguButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF460237580F500C9A177 /* NuguButton.xib */; };
 		1FFFF478237580F500C9A177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF462237580F500C9A177 /* Assets.xcassets */; };
-		1FFFF4DF237672F100C9A177 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4A5237672F100C9A177 /* SettingViewController.swift */; };
-		1FFFF4E0237672F100C9A177 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4A6237672F100C9A177 /* IntroViewController.swift */; };
-		1FFFF4E1237672F100C9A177 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4A7237672F100C9A177 /* MainViewController.swift */; };
-		1FFFF4E2237672F100C9A177 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4A8237672F100C9A177 /* WebViewController.swift */; };
-		1FFFF4E3237672F100C9A177 /* NuguWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4AA237672F100C9A177 /* NuguWebView.swift */; };
-		1FFFF4E4237672F100C9A177 /* DisplayBodyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4AC237672F100C9A177 /* DisplayBodyView.xib */; };
-		1FFFF4E5237672F100C9A177 /* DisplayBodyListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4AE237672F100C9A177 /* DisplayBodyListViewCell.swift */; };
-		1FFFF4E6237672F100C9A177 /* DisplayListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4AF237672F100C9A177 /* DisplayListViewCell.xib */; };
-		1FFFF4E7237672F100C9A177 /* DisplayBodyListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B0237672F100C9A177 /* DisplayBodyListViewCell.xib */; };
-		1FFFF4E8237672F100C9A177 /* DisplayListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B1237672F100C9A177 /* DisplayListViewCell.swift */; };
-		1FFFF4E9237672F100C9A177 /* DisplayBodyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B2237672F100C9A177 /* DisplayBodyListView.swift */; };
-		1FFFF4EA237672F100C9A177 /* DisplayBodyListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B3237672F100C9A177 /* DisplayBodyListView.xib */; };
-		1FFFF4EB237672F100C9A177 /* DisplayBodyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B5237672F100C9A177 /* DisplayBodyTemplate.swift */; };
-		1FFFF4EC237672F100C9A177 /* DisplayBodyListTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B6237672F100C9A177 /* DisplayBodyListTemplate.swift */; };
-		1FFFF4ED237672F100C9A177 /* DisplayCommonTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B7237672F100C9A177 /* DisplayCommonTemplate.swift */; };
-		1FFFF4EE237672F100C9A177 /* DisplayListTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B8237672F100C9A177 /* DisplayListTemplate.swift */; };
-		1FFFF4EF237672F100C9A177 /* DisplayAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4B9237672F100C9A177 /* DisplayAudioPlayerView.swift */; };
-		1FFFF4F0237672F100C9A177 /* DisplayBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BA237672F100C9A177 /* DisplayBodyView.swift */; };
-		1FFFF4F1237672F100C9A177 /* DisplayListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BB237672F100C9A177 /* DisplayListView.xib */; };
-		1FFFF4F2237672F100C9A177 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BC237672F100C9A177 /* DisplayView.swift */; };
-		1FFFF4F3237672F100C9A177 /* DisplayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BD237672F100C9A177 /* DisplayListView.swift */; };
-		1FFFF4F4237672F100C9A177 /* DisplayAudioPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BE237672F100C9A177 /* DisplayAudioPlayerView.xib */; };
-		1FFFF4F5237672F100C9A177 /* NuguToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4BF237672F100C9A177 /* NuguToastManager.swift */; };
-		1FFFF4F6237672F100C9A177 /* UIColor+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4C1237672F100C9A177 /* UIColor+Convenience.swift */; };
-		1FFFF4F7237672F100C9A177 /* Int+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4C2237672F100C9A177 /* Int+Convenience.swift */; };
-		1FFFF4F8237672F100C9A177 /* ImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4C4237672F100C9A177 /* ImageDataLoader.swift */; };
-		1FFFF4F9237672F100C9A177 /* SampleAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4C6237672F100C9A177 /* SampleAppError.swift */; };
-		1FFFF4FA237672F100C9A177 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4C7237672F100C9A177 /* SampleApp.swift */; };
-		1FFFF4FC237672F100C9A177 /* NuguCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4CA237672F100C9A177 /* NuguCentralManager.swift */; };
-		1FFFF4FD237672F100C9A177 /* NuguDisplayPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4CB237672F100C9A177 /* NuguDisplayPlayerController.swift */; };
-		1FFFF4FE237672F100C9A177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4CC237672F100C9A177 /* AppDelegate.swift */; };
-		1FFFF4FF237672F100C9A177 /* UserDefaults+Romaine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4CE237672F100C9A177 /* UserDefaults+Romaine.swift */; };
-		1FFFF500237672F100C9A177 /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4CF237672F100C9A177 /* UserDefaultsWrapper.swift */; };
-		1FFFF501237672F100C9A177 /* UserDefaults+Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF4D0237672F100C9A177 /* UserDefaults+Standard.swift */; };
-		1FFFF502237672F100C9A177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4D2237672F100C9A177 /* Assets.xcassets */; };
-		1FFFF503237672F100C9A177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4D3237672F100C9A177 /* LaunchScreen.storyboard */; };
-		1FFFF504237672F100C9A177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4D5237672F100C9A177 /* Main.storyboard */; };
-		1FFFF505237672F100C9A177 /* asrStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4D9237672F100C9A177 /* asrStart.wav */; };
-		1FFFF506237672F100C9A177 /* asrSuccess.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4DA237672F100C9A177 /* asrSuccess.wav */; };
-		1FFFF507237672F100C9A177 /* asrFail.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFF4DB237672F100C9A177 /* asrFail.wav */; };
-		1FFFF516237674DF00C9A177 /* NuguLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF01723753F7D00C9A177 /* NuguLoginKit.framework */; };
-		1FFFF517237674DF00C9A177 /* NuguLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF01723753F7D00C9A177 /* NuguLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1FFFF51A237674DF00C9A177 /* NuguUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF02423753F8A00C9A177 /* NuguUIKit.framework */; };
-		1FFFF51B237674DF00C9A177 /* NuguUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF02423753F8A00C9A177 /* NuguUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7303C68A23C5C00F00610343 /* BoundStreams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303C68923C5C00F00610343 /* BoundStreams.swift */; };
 		73152F9E23E0405900F843C3 /* NuguAgents.h in Headers */ = {isa = PBXBuildFile; fileRef = 73152F9C23E0405900F843C3 /* NuguAgents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73152FA123E0405900F843C3 /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
-		73152FA223E0405900F843C3 /* NuguAgents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73152FA723E0412700F843C3 /* ExtensionAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF32E2375707000C9A177 /* ExtensionAgent.swift */; };
 		73152FA923E0412D00F843C3 /* ExtensionAgent+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF32D2375707000C9A177 /* ExtensionAgent+Event.swift */; };
 		73152FAA23E0412D00F843C3 /* ExtensionAgentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF32F2375707000C9A177 /* ExtensionAgentItem.swift */; };
@@ -331,7 +248,6 @@
 		739078FD241A3E0C007D753F /* ServerSideEventReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739078FB241A3E0B007D753F /* ServerSideEventReceiver.swift */; };
 		739078FE241A3E0C007D753F /* ServerSideEventReceiverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739078FC241A3E0C007D753F /* ServerSideEventReceiverState.swift */; };
 		73D380A423E7F22E000C5ED5 /* SpeexCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D380A323E7F22E000C5ED5 /* SpeexCodec.swift */; };
-		7547B703240CD5C200C57A34 /* Dictionary+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7547B702240CD5C200C57A34 /* Dictionary+Convenience.swift */; };
 		7E1FA2B224244F79006B8BA9 /* BlockingPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FA2B124244F79006B8BA9 /* BlockingPolicy.swift */; };
 		7E26C58123A08DC100716E44 /* URLRequest+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26C58023A08DC100716E44 /* URLRequest+Rx.swift */; };
 		7E4382542418DAB200053A0D /* PlayStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4382532418DAB200053A0D /* PlayStack.swift */; };
@@ -347,105 +263,11 @@
 		A135E669241F3287006F82E5 /* AudioPlayerDisplayRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135E667241F3287006F82E5 /* AudioPlayerDisplayRepeat.swift */; };
 		A135E66B241F39D9006F82E5 /* AudioPlayerAgent+LyricsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135E66A241F39D9006F82E5 /* AudioPlayerAgent+LyricsEvent.swift */; };
 		A135E6952428B6C8006F82E5 /* AudioPlayerAgent+RequestPlayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135E6942428B6C8006F82E5 /* AudioPlayerAgent+RequestPlayEvent.swift */; };
-		A15050952416272500671568 /* AudioPlayerUpdateMetadataPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15050922416272400671568 /* AudioPlayerUpdateMetadataPayload.swift */; };
-		A15050972416272500671568 /* AudioPlayerTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15050942416272500671568 /* AudioPlayerTemplate.swift */; };
-		A15050CF241B2B7000671568 /* AudioPlayerLyricsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15050CE241B2B7000671568 /* AudioPlayerLyricsTemplate.swift */; };
-		A15050D1241B2BCF00671568 /* AudioPlayerSettingsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15050D0241B2BCF00671568 /* AudioPlayerSettingsTemplate.swift */; };
 		A1519AAC23F3EC8700FF4159 /* DisplayControlPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1519AAB23F3EC8700FF4159 /* DisplayControlPayload.swift */; };
-		A17B065E2394D22800D739E9 /* device_GW_error_002.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B06572394D22700D739E9 /* device_GW_error_002.wav */; };
-		A17B065F2394D22800D739E9 /* device_GW_error_001.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B06582394D22700D739E9 /* device_GW_error_001.wav */; };
-		A17B06602394D22800D739E9 /* device_GW_error_005.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B06592394D22700D739E9 /* device_GW_error_005.wav */; };
-		A17B06612394D22800D739E9 /* device_GW_error_003.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B065A2394D22700D739E9 /* device_GW_error_003.wav */; };
-		A17B06622394D22800D739E9 /* device_GW_error_004.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B065B2394D22700D739E9 /* device_GW_error_004.wav */; };
-		A17B06632394D22800D739E9 /* poc_end_error.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B065C2394D22800D739E9 /* poc_end_error.wav */; };
-		A17B06642394D22800D739E9 /* device_GW_error_006.wav in Resources */ = {isa = PBXBuildFile; fileRef = A17B065D2394D22800D739E9 /* device_GW_error_006.wav */; };
-		A17B06D2239E28DB00D739E9 /* ASRBeepPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B06D1239E28DB00D739E9 /* ASRBeepPlayer.swift */; };
-		A17B06D4239E28EB00D739E9 /* LocalTTSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B06D3239E28EB00D739E9 /* LocalTTSAgent.swift */; };
-		A18B7A5E23A75BEC007801E6 /* DisplayWeatherListTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B7A5D23A75BEC007801E6 /* DisplayWeatherListTemplate.swift */; };
-		A18B7A6023A75D35007801E6 /* DisplayWeatherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B7A5F23A75D35007801E6 /* DisplayWeatherListView.swift */; };
-		A18B7A6223A77117007801E6 /* DisplayWeatherListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B7A6123A77117007801E6 /* DisplayWeatherListView.xib */; };
-		A18B7A6423A77135007801E6 /* DisplayWeatherListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B7A6323A77135007801E6 /* DisplayWeatherListViewCell.swift */; };
-		A18B7A6623A77144007801E6 /* DisplayWeatherListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B7A6523A77144007801E6 /* DisplayWeatherListViewCell.xib */; };
 		A1B33EFB237D47D800CD4DE0 /* NuguVoiceChromeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B33EFA237D47D800CD4DE0 /* NuguVoiceChromeAnimationView.swift */; };
-		A1B741BA23E1641500D862F7 /* DisplayControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B741B923E1641500D862F7 /* DisplayControllable.swift */; };
-		A1B86FF82390B3C100F6BD11 /* NuguAudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B86FF72390B3C100F6BD11 /* NuguAudioSessionManager.swift */; };
-		A1DAC4E523A371B600F8D638 /* DisplayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC4E423A371B600F8D638 /* DisplayWeatherView.swift */; };
-		A1DAC4E723A371CE00F8D638 /* DisplayWeatherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC4E623A371CE00F8D638 /* DisplayWeatherView.xib */; };
-		A1DAC4E923A3722700F8D638 /* DisplayWeatherTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC4E823A3722700F8D638 /* DisplayWeatherTemplate.swift */; };
-		A1ED44592384FD24002A1F75 /* NuguLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED44582384FD24002A1F75 /* NuguLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F1008F42379247800D90FEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF03023753FA200C9A177;
-			remoteInfo = JadeMarble;
-		};
-		1F1008F82379247800D90FEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
-			remoteInfo = NuguCore;
-		};
-		1F119EA52435DF4E00D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F119EA22435DF4E00D0DD70;
-			remoteInfo = "SampleApp-WatchOS WatchKit App";
-		};
-		1F119EB42435DF4F00D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F119EB12435DF4F00D0DD70;
-			remoteInfo = "SampleApp-WatchOS WatchKit Extension";
-		};
-		1F119F40243C505600D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
-			remoteInfo = NuguCore;
-		};
-		1F119F4A243C522D00D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
-			remoteInfo = NuguCore;
-		};
-		1F119F7724441E9F00D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73152F9923E0405900F843C3;
-			remoteInfo = NuguAgents;
-		};
-		1F1386532444390600E7FC14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF00923753F3100C9A177;
-			remoteInfo = NuguClientKit;
-		};
-		1F9D35FD24444EDB00EFF4FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73152F9923E0405900F843C3;
-			remoteInfo = NuguAgents;
-		};
-		1F9D360124444EDB00EFF4FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF00923753F3100C9A177;
-			remoteInfo = NuguClientKit;
-		};
 		1FF29FB42445823A009C07A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D9C428722745894000A6585 /* Project object */;
@@ -466,34 +288,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
 			remoteInfo = NuguCore;
-		};
-		1FFFF510237674DF00C9A177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF03D23753FB200C9A177;
-			remoteInfo = KeenSense;
-		};
-		1FFFF514237674DF00C9A177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF00923753F3100C9A177;
-			remoteInfo = NuguClientKit;
-		};
-		1FFFF518237674DF00C9A177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF01623753F7D00C9A177;
-			remoteInfo = NuguLoginKit;
-		};
-		1FFFF51C237674DF00C9A177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFF02323753F8A00C9A177;
-			remoteInfo = NuguUIKit;
 		};
 		1FFFF52D2376779200C9A177 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -537,74 +331,9 @@
 			remoteGlobalIDString = 1FFFF02323753F8A00C9A177;
 			remoteInfo = NuguUIKit;
 		};
-		73152F9F23E0405900F843C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73152F9923E0405900F843C3;
-			remoteInfo = NuguAgents;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1F119EC42435DF4F00D0DD70 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				1F119EB32435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EC82435DF4F00D0DD70 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				1F119EA42435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119F42243C505700D0DD70 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1F1386522444390600E7FC14 /* NuguClientKit.framework in Embed Frameworks */,
-				1F119F3F243C505600D0DD70 /* NuguCore.framework in Embed Frameworks */,
-				1F119F7624441E9F00D0DD70 /* NuguAgents.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119F4C243C522D00D0DD70 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1F9D360024444EDB00EFF4FD /* NuguClientKit.framework in Embed Frameworks */,
-				1F119F49243C522D00D0DD70 /* NuguCore.framework in Embed Frameworks */,
-				1F9D35FC24444EDB00EFF4FD /* NuguAgents.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F58E68A244D877E00E57F24 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FF29FB62445823A009C07A9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,23 +357,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FFFF51E237674E000C9A177 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1F1008D12379221700D90FEE /* KeenSense.framework in Embed Frameworks */,
-				73152FA223E0405900F843C3 /* NuguAgents.framework in Embed Frameworks */,
-				1F1008CF2379221500D90FEE /* NuguClientKit.framework in Embed Frameworks */,
-				1F1008F32379247800D90FEE /* JadeMarble.framework in Embed Frameworks */,
-				1FFFF51B237674DF00C9A177 /* NuguUIKit.framework in Embed Frameworks */,
-				1F1008F72379247800D90FEE /* NuguCore.framework in Embed Frameworks */,
-				1FFFF517237674DF00C9A177 /* NuguLoginKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -656,39 +368,12 @@
 		1F1008C2237688E300D90FEE /* NuguUIKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NuguUIKit.podspec; sourceTree = "<group>"; };
 		1F1008C92376925C00D90FEE /* feature-request.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "feature-request.md"; sourceTree = "<group>"; };
 		1F1008CA2376925C00D90FEE /* bug-report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "bug-report.md"; sourceTree = "<group>"; };
-		1F1008CD23791F5400D90FEE /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
 		1F10094E237A886100D90FEE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		1F100953237A8AE800D90FEE /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		1F100965237C0D0100D90FEE /* scheduled-feature.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scheduled-feature.md"; sourceTree = "<group>"; };
 		1F100990238529C100D90FEE /* TimeIntervallic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervallic.swift; sourceTree = "<group>"; };
 		1F100995238795FF00D90FEE /* NuguTimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguTimeInterval.swift; sourceTree = "<group>"; };
 		1F1009992387994B00D90FEE /* TimeIntervallicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervallicTests.swift; sourceTree = "<group>"; };
-		1F119EA02435DF4E00D0DD70 /* SampleApp-WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-WatchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F119EA32435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-WatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F119EA92435DF4E00D0DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		1F119EAB2435DF4F00D0DD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F119EAD2435DF4F00D0DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F119EB22435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SampleApp-WatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F119EB72435DF4F00D0DD70 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		1F119EB92435DF4F00D0DD70 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		1F119EBB2435DF4F00D0DD70 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		1F119EBD2435DF4F00D0DD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F119EBF2435DF4F00D0DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F119EC02435DF4F00D0DD70 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		1F119ED02435E10F00D0DD70 /* SampleApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F119ED22435E10F00D0DD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F119ED42435E10F00D0DD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F119ED72435E10F00D0DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F119ED92435E11000D0DD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F119EDC2435E11000D0DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1F119EDE2435E11000D0DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F119EE62435E24800D0DD70 /* SampleApp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F119EE82435E24800D0DD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F119EEA2435E24800D0DD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F119EEC2435E24900D0DD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F119EEF2435E24900D0DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F119EF12435E24900D0DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F119EF22435E24900D0DD70 /* SampleApp_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp_macOS.entitlements; sourceTree = "<group>"; };
 		1F119F202435EC2600D0DD70 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		1F119F212435EC2600D0DD70 /* NattyLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NattyLog.framework; path = Carthage/Build/iOS/NattyLog.framework; sourceTree = "<group>"; };
 		1F119F222435EC2600D0DD70 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
@@ -713,7 +398,6 @@
 		1F2E803D2397A27300569C59 /* KeywordDetectorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordDetectorState.swift; sourceTree = "<group>"; };
 		1F2E803F2397A2E500569C59 /* KeywordDetectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordDetectorDelegate.swift; sourceTree = "<group>"; };
 		1F31FD7B2424CBD8009593EB /* UpstreamSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstreamSpec.swift; sourceTree = "<group>"; };
-		1F58E684244D871300E57F24 /* NuguCore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NuguCore copy-Info.plist"; path = "/Users/yonghoonkwon/git_work/clone/nugu-ios/NuguCore copy-Info.plist"; sourceTree = "<absolute>"; };
 		1F5DD4A9240CEAF500719FBC /* AudioPlayerAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerAgentSpec.swift; sourceTree = "<group>"; };
 		1F5DD4AB240CF0D600719FBC /* MockPlaySyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlaySyncManager.swift; sourceTree = "<group>"; };
 		1F5DD4AD240CF7D100719FBC /* ASRAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRAgentSpec.swift; sourceTree = "<group>"; };
@@ -911,48 +595,6 @@
 		1FFFF45F237580F500C9A177 /* NuguButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuguButton.swift; sourceTree = "<group>"; };
 		1FFFF460237580F500C9A177 /* NuguButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NuguButton.xib; sourceTree = "<group>"; };
 		1FFFF462237580F500C9A177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FFFF48D237671F500C9A177 /* SampleApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFFF4A5237672F100C9A177 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		1FFFF4A6237672F100C9A177 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
-		1FFFF4A7237672F100C9A177 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		1FFFF4A8237672F100C9A177 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		1FFFF4AA237672F100C9A177 /* NuguWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuguWebView.swift; sourceTree = "<group>"; };
-		1FFFF4AC237672F100C9A177 /* DisplayBodyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayBodyView.xib; sourceTree = "<group>"; };
-		1FFFF4AE237672F100C9A177 /* DisplayBodyListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayBodyListViewCell.swift; sourceTree = "<group>"; };
-		1FFFF4AF237672F100C9A177 /* DisplayListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayListViewCell.xib; sourceTree = "<group>"; };
-		1FFFF4B0237672F100C9A177 /* DisplayBodyListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayBodyListViewCell.xib; sourceTree = "<group>"; };
-		1FFFF4B1237672F100C9A177 /* DisplayListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayListViewCell.swift; sourceTree = "<group>"; };
-		1FFFF4B2237672F100C9A177 /* DisplayBodyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayBodyListView.swift; sourceTree = "<group>"; };
-		1FFFF4B3237672F100C9A177 /* DisplayBodyListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayBodyListView.xib; sourceTree = "<group>"; };
-		1FFFF4B5237672F100C9A177 /* DisplayBodyTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayBodyTemplate.swift; sourceTree = "<group>"; };
-		1FFFF4B6237672F100C9A177 /* DisplayBodyListTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayBodyListTemplate.swift; sourceTree = "<group>"; };
-		1FFFF4B7237672F100C9A177 /* DisplayCommonTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCommonTemplate.swift; sourceTree = "<group>"; };
-		1FFFF4B8237672F100C9A177 /* DisplayListTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayListTemplate.swift; sourceTree = "<group>"; };
-		1FFFF4B9237672F100C9A177 /* DisplayAudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAudioPlayerView.swift; sourceTree = "<group>"; };
-		1FFFF4BA237672F100C9A177 /* DisplayBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayBodyView.swift; sourceTree = "<group>"; };
-		1FFFF4BB237672F100C9A177 /* DisplayListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayListView.xib; sourceTree = "<group>"; };
-		1FFFF4BC237672F100C9A177 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
-		1FFFF4BD237672F100C9A177 /* DisplayListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayListView.swift; sourceTree = "<group>"; };
-		1FFFF4BE237672F100C9A177 /* DisplayAudioPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayAudioPlayerView.xib; sourceTree = "<group>"; };
-		1FFFF4BF237672F100C9A177 /* NuguToastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuguToastManager.swift; sourceTree = "<group>"; };
-		1FFFF4C1237672F100C9A177 /* UIColor+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Convenience.swift"; sourceTree = "<group>"; };
-		1FFFF4C2237672F100C9A177 /* Int+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Convenience.swift"; sourceTree = "<group>"; };
-		1FFFF4C4237672F100C9A177 /* ImageDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataLoader.swift; sourceTree = "<group>"; };
-		1FFFF4C6237672F100C9A177 /* SampleAppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAppError.swift; sourceTree = "<group>"; };
-		1FFFF4C7237672F100C9A177 /* SampleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
-		1FFFF4CA237672F100C9A177 /* NuguCentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuguCentralManager.swift; sourceTree = "<group>"; };
-		1FFFF4CB237672F100C9A177 /* NuguDisplayPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuguDisplayPlayerController.swift; sourceTree = "<group>"; };
-		1FFFF4CC237672F100C9A177 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FFFF4CE237672F100C9A177 /* UserDefaults+Romaine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Romaine.swift"; sourceTree = "<group>"; };
-		1FFFF4CF237672F100C9A177 /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
-		1FFFF4D0237672F100C9A177 /* UserDefaults+Standard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Standard.swift"; sourceTree = "<group>"; };
-		1FFFF4D2237672F100C9A177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FFFF4D4237672F100C9A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1FFFF4D6237672F100C9A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FFFF4D9237672F100C9A177 /* asrStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = asrStart.wav; sourceTree = "<group>"; };
-		1FFFF4DA237672F100C9A177 /* asrSuccess.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = asrSuccess.wav; sourceTree = "<group>"; };
-		1FFFF4DB237672F100C9A177 /* asrFail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = asrFail.wav; sourceTree = "<group>"; };
-		1FFFF50C2376748E00C9A177 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FFFF523237676BE00C9A177 /* NuguTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuguTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFFF527237676BE00C9A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9C42A92274599D000A6585 /* nugu-ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "nugu-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1004,7 +646,6 @@
 		739078FB241A3E0B007D753F /* ServerSideEventReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSideEventReceiver.swift; sourceTree = "<group>"; };
 		739078FC241A3E0C007D753F /* ServerSideEventReceiverState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSideEventReceiverState.swift; sourceTree = "<group>"; };
 		73D380A323E7F22E000C5ED5 /* SpeexCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeexCodec.swift; sourceTree = "<group>"; };
-		7547B702240CD5C200C57A34 /* Dictionary+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Convenience.swift"; sourceTree = "<group>"; };
 		7E1FA2B124244F79006B8BA9 /* BlockingPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingPolicy.swift; sourceTree = "<group>"; };
 		7E26C58023A08DC100716E44 /* URLRequest+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Rx.swift"; sourceTree = "<group>"; };
 		7E4382532418DAB200053A0D /* PlayStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayStack.swift; sourceTree = "<group>"; };
@@ -1021,62 +662,11 @@
 		A135E667241F3287006F82E5 /* AudioPlayerDisplayRepeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerDisplayRepeat.swift; sourceTree = "<group>"; };
 		A135E66A241F39D9006F82E5 /* AudioPlayerAgent+LyricsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioPlayerAgent+LyricsEvent.swift"; sourceTree = "<group>"; };
 		A135E6942428B6C8006F82E5 /* AudioPlayerAgent+RequestPlayEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioPlayerAgent+RequestPlayEvent.swift"; sourceTree = "<group>"; };
-		A15050922416272400671568 /* AudioPlayerUpdateMetadataPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerUpdateMetadataPayload.swift; sourceTree = "<group>"; };
-		A15050942416272500671568 /* AudioPlayerTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerTemplate.swift; sourceTree = "<group>"; };
-		A15050CE241B2B7000671568 /* AudioPlayerLyricsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerLyricsTemplate.swift; sourceTree = "<group>"; };
-		A15050D0241B2BCF00671568 /* AudioPlayerSettingsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerSettingsTemplate.swift; sourceTree = "<group>"; };
 		A1519AAB23F3EC8700FF4159 /* DisplayControlPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayControlPayload.swift; sourceTree = "<group>"; };
-		A17B06572394D22700D739E9 /* device_GW_error_002.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_002.wav; sourceTree = "<group>"; };
-		A17B06582394D22700D739E9 /* device_GW_error_001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_001.wav; sourceTree = "<group>"; };
-		A17B06592394D22700D739E9 /* device_GW_error_005.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_005.wav; sourceTree = "<group>"; };
-		A17B065A2394D22700D739E9 /* device_GW_error_003.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_003.wav; sourceTree = "<group>"; };
-		A17B065B2394D22700D739E9 /* device_GW_error_004.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_004.wav; sourceTree = "<group>"; };
-		A17B065C2394D22800D739E9 /* poc_end_error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = poc_end_error.wav; sourceTree = "<group>"; };
-		A17B065D2394D22800D739E9 /* device_GW_error_006.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = device_GW_error_006.wav; sourceTree = "<group>"; };
-		A17B06D1239E28DB00D739E9 /* ASRBeepPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRBeepPlayer.swift; sourceTree = "<group>"; };
-		A17B06D3239E28EB00D739E9 /* LocalTTSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTTSAgent.swift; sourceTree = "<group>"; };
-		A18B7A5D23A75BEC007801E6 /* DisplayWeatherListTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherListTemplate.swift; sourceTree = "<group>"; };
-		A18B7A5F23A75D35007801E6 /* DisplayWeatherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherListView.swift; sourceTree = "<group>"; };
-		A18B7A6123A77117007801E6 /* DisplayWeatherListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayWeatherListView.xib; sourceTree = "<group>"; };
-		A18B7A6323A77135007801E6 /* DisplayWeatherListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherListViewCell.swift; sourceTree = "<group>"; };
-		A18B7A6523A77144007801E6 /* DisplayWeatherListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayWeatherListViewCell.xib; sourceTree = "<group>"; };
 		A1B33EFA237D47D800CD4DE0 /* NuguVoiceChromeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguVoiceChromeAnimationView.swift; sourceTree = "<group>"; };
-		A1B741B923E1641500D862F7 /* DisplayControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayControllable.swift; sourceTree = "<group>"; };
-		A1B86FF72390B3C100F6BD11 /* NuguAudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguAudioSessionManager.swift; sourceTree = "<group>"; };
-		A1DAC4E423A371B600F8D638 /* DisplayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherView.swift; sourceTree = "<group>"; };
-		A1DAC4E623A371CE00F8D638 /* DisplayWeatherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayWeatherView.xib; sourceTree = "<group>"; };
-		A1DAC4E823A3722700F8D638 /* DisplayWeatherTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherTemplate.swift; sourceTree = "<group>"; };
-		A1ED44582384FD24002A1F75 /* NuguLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F119EAF2435DF4F00D0DD70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119ECD2435E10F00D0DD70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F9D35FF24444EDB00EFF4FD /* NuguClientKit.framework in Frameworks */,
-				1F119F48243C522C00D0DD70 /* NuguCore.framework in Frameworks */,
-				1F9D35FB24444EDB00EFF4FD /* NuguAgents.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EE32435E24800D0DD70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F1386512444390600E7FC14 /* NuguClientKit.framework in Frameworks */,
-				1F119F3E243C505600D0DD70 /* NuguCore.framework in Frameworks */,
-				1F119F7524441E9F00D0DD70 /* NuguAgents.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FFFEFFA23753F1800C9A177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1123,20 +713,6 @@
 			files = (
 				1FFFF43323757E0000C9A177 /* libTycheWakeupCommon.a in Frameworks */,
 				1FFFF43223757E0000C9A177 /* libTycheWakeup.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FFFF48A237671F500C9A177 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73152FA123E0405900F843C3 /* NuguAgents.framework in Frameworks */,
-				1FFFF51A237674DF00C9A177 /* NuguUIKit.framework in Frameworks */,
-				1F1008CE2379221500D90FEE /* NuguClientKit.framework in Frameworks */,
-				1F1008F62379247800D90FEE /* NuguCore.framework in Frameworks */,
-				1F1008D02379221700D90FEE /* KeenSense.framework in Frameworks */,
-				1FFFF516237674DF00C9A177 /* NuguLoginKit.framework in Frameworks */,
-				1F1008F22379247800D90FEE /* JadeMarble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1232,55 +808,6 @@
 				1F100990238529C100D90FEE /* TimeIntervallic.swift */,
 			);
 			path = TimeInterval;
-			sourceTree = "<group>";
-		};
-		1F119EA72435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				1F119EA82435DF4E00D0DD70 /* Interface.storyboard */,
-				1F119EAB2435DF4F00D0DD70 /* Assets.xcassets */,
-				1F119EAD2435DF4F00D0DD70 /* Info.plist */,
-			);
-			path = "SampleApp-WatchOS WatchKit App";
-			sourceTree = "<group>";
-		};
-		1F119EB62435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				1F119EB72435DF4F00D0DD70 /* InterfaceController.swift */,
-				1F119EB92435DF4F00D0DD70 /* ExtensionDelegate.swift */,
-				1F119EBB2435DF4F00D0DD70 /* NotificationController.swift */,
-				1F119EBD2435DF4F00D0DD70 /* Assets.xcassets */,
-				1F119EBF2435DF4F00D0DD70 /* Info.plist */,
-				1F119EC02435DF4F00D0DD70 /* PushNotificationPayload.apns */,
-			);
-			path = "SampleApp-WatchOS WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		1F119ED12435E10F00D0DD70 /* SampleApp-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				1F119ED22435E10F00D0DD70 /* AppDelegate.swift */,
-				1F119ED42435E10F00D0DD70 /* ViewController.swift */,
-				1F119ED62435E10F00D0DD70 /* Main.storyboard */,
-				1F119ED92435E11000D0DD70 /* Assets.xcassets */,
-				1F119EDB2435E11000D0DD70 /* LaunchScreen.storyboard */,
-				1F119EDE2435E11000D0DD70 /* Info.plist */,
-			);
-			path = "SampleApp-tvOS";
-			sourceTree = "<group>";
-		};
-		1F119EE72435E24800D0DD70 /* SampleApp-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1F119EE82435E24800D0DD70 /* AppDelegate.swift */,
-				1F119EEA2435E24800D0DD70 /* ViewController.swift */,
-				1F119EEC2435E24900D0DD70 /* Assets.xcassets */,
-				1F119EEE2435E24900D0DD70 /* Main.storyboard */,
-				1F119EF12435E24900D0DD70 /* Info.plist */,
-				1F119EF22435E24900D0DD70 /* SampleApp_macOS.entitlements */,
-			);
-			path = "SampleApp-macOS";
 			sourceTree = "<group>";
 		};
 		1F119F1C2435EBBD00D0DD70 /* iOS */ = {
@@ -1403,14 +930,6 @@
 			children = (
 				73454FBC2382C1E50073AF48 /* Publish.swift */,
 				1FFFF3272375707000C9A177 /* Atomic.swift */,
-			);
-			path = PropertyWrappers;
-			sourceTree = "<group>";
-		};
-		1F9C5B6A23E431330086CC04 /* PropertyWrappers */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4CF237672F100C9A177 /* UserDefaultsWrapper.swift */,
 			);
 			path = PropertyWrappers;
 			sourceTree = "<group>";
@@ -2251,175 +1770,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1FFFF48E237671F500C9A177 /* SampleApp-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4A3237672F100C9A177 /* Sources */,
-				1FFFF4D1237672F100C9A177 /* Resources */,
-				1FFFF4D7237672F100C9A177 /* Supporting Files */,
-			);
-			path = "SampleApp-iOS";
-			sourceTree = "<group>";
-		};
-		1FFFF4A3237672F100C9A177 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4CC237672F100C9A177 /* AppDelegate.swift */,
-				A17B06D0239E28BA00D739E9 /* MediaPlayer */,
-				1FFFF4C8237672F100C9A177 /* Manager */,
-				1FFFF4A4237672F100C9A177 /* UI */,
-				1FFFF4C0237672F100C9A177 /* Util */,
-				1FFFF4C3237672F100C9A177 /* Network */,
-				1FFFF4C5237672F100C9A177 /* Const */,
-				1FFFF4CD237672F100C9A177 /* Store */,
-				1F9C5B6A23E431330086CC04 /* PropertyWrappers */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		1FFFF4A4237672F100C9A177 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4A9237672F100C9A177 /* Views */,
-				1FFFF4A5237672F100C9A177 /* SettingViewController.swift */,
-				1FFFF4A6237672F100C9A177 /* IntroViewController.swift */,
-				1FFFF4A7237672F100C9A177 /* MainViewController.swift */,
-				1FFFF4A8237672F100C9A177 /* WebViewController.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		1FFFF4A9237672F100C9A177 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4AB237672F100C9A177 /* DisplayViews */,
-				1FFFF4AA237672F100C9A177 /* NuguWebView.swift */,
-				1FFFF4BF237672F100C9A177 /* NuguToastManager.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		1FFFF4AB237672F100C9A177 /* DisplayViews */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4AD237672F100C9A177 /* DisplayViewCell */,
-				1FFFF4B4237672F100C9A177 /* Models */,
-				A1B741B923E1641500D862F7 /* DisplayControllable.swift */,
-				1FFFF4BC237672F100C9A177 /* DisplayView.swift */,
-				1FFFF4B2237672F100C9A177 /* DisplayBodyListView.swift */,
-				1FFFF4B3237672F100C9A177 /* DisplayBodyListView.xib */,
-				1FFFF4BA237672F100C9A177 /* DisplayBodyView.swift */,
-				1FFFF4AC237672F100C9A177 /* DisplayBodyView.xib */,
-				1FFFF4BD237672F100C9A177 /* DisplayListView.swift */,
-				1FFFF4BB237672F100C9A177 /* DisplayListView.xib */,
-				A1DAC4E423A371B600F8D638 /* DisplayWeatherView.swift */,
-				A1DAC4E623A371CE00F8D638 /* DisplayWeatherView.xib */,
-				A18B7A5F23A75D35007801E6 /* DisplayWeatherListView.swift */,
-				A18B7A6123A77117007801E6 /* DisplayWeatherListView.xib */,
-				1FFFF4B9237672F100C9A177 /* DisplayAudioPlayerView.swift */,
-				1FFFF4BE237672F100C9A177 /* DisplayAudioPlayerView.xib */,
-			);
-			path = DisplayViews;
-			sourceTree = "<group>";
-		};
-		1FFFF4AD237672F100C9A177 /* DisplayViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4B1237672F100C9A177 /* DisplayListViewCell.swift */,
-				1FFFF4AF237672F100C9A177 /* DisplayListViewCell.xib */,
-				1FFFF4AE237672F100C9A177 /* DisplayBodyListViewCell.swift */,
-				1FFFF4B0237672F100C9A177 /* DisplayBodyListViewCell.xib */,
-				A18B7A6323A77135007801E6 /* DisplayWeatherListViewCell.swift */,
-				A18B7A6523A77144007801E6 /* DisplayWeatherListViewCell.xib */,
-			);
-			path = DisplayViewCell;
-			sourceTree = "<group>";
-		};
-		1FFFF4B4237672F100C9A177 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A15050912416270B00671568 /* AudioPlayerDisplay */,
-				A1505090241626F100671568 /* Display */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		1FFFF4C0237672F100C9A177 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				7547B702240CD5C200C57A34 /* Dictionary+Convenience.swift */,
-				1FFFF4C1237672F100C9A177 /* UIColor+Convenience.swift */,
-				1FFFF4C2237672F100C9A177 /* Int+Convenience.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		1FFFF4C3237672F100C9A177 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4C4237672F100C9A177 /* ImageDataLoader.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		1FFFF4C5237672F100C9A177 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4C7237672F100C9A177 /* SampleApp.swift */,
-				1FFFF4C6237672F100C9A177 /* SampleAppError.swift */,
-			);
-			path = Const;
-			sourceTree = "<group>";
-		};
-		1FFFF4C8237672F100C9A177 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				A1ED44582384FD24002A1F75 /* NuguLocationManager.swift */,
-				1FFFF4CA237672F100C9A177 /* NuguCentralManager.swift */,
-				A1B86FF72390B3C100F6BD11 /* NuguAudioSessionManager.swift */,
-				1FFFF4CB237672F100C9A177 /* NuguDisplayPlayerController.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		1FFFF4CD237672F100C9A177 /* Store */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4CE237672F100C9A177 /* UserDefaults+Romaine.swift */,
-				1FFFF4D0237672F100C9A177 /* UserDefaults+Standard.swift */,
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
-		1FFFF4D1237672F100C9A177 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4D2237672F100C9A177 /* Assets.xcassets */,
-				1FFFF4D3237672F100C9A177 /* LaunchScreen.storyboard */,
-				1FFFF4D5237672F100C9A177 /* Main.storyboard */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		1FFFF4D7237672F100C9A177 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4D8237672F100C9A177 /* SoundResource */,
-				1FFFF50C2376748E00C9A177 /* Info.plist */,
-				1F1008CD23791F5400D90FEE /* SampleApp.entitlements */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FFFF4D8237672F100C9A177 /* SoundResource */ = {
-			isa = PBXGroup;
-			children = (
-				A17B06562394D20200D739E9 /* LocalTts */,
-				A17B06552394D1EF00D739E9 /* AsrBeep */,
-			);
-			path = SoundResource;
-			sourceTree = "<group>";
-		};
 		1FFFF524237676BE00C9A177 /* NuguTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -2444,15 +1794,9 @@
 				1FFFF02523753F8A00C9A177 /* NuguUIKit */,
 				1FFFF03223753FA200C9A177 /* JadeMarble */,
 				1FFFF03F23753FB200C9A177 /* KeenSense */,
-				1FFFF48E237671F500C9A177 /* SampleApp-iOS */,
 				1FFFF524237676BE00C9A177 /* NuguTests */,
-				1F119EA72435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App */,
-				1F119EB62435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension */,
-				1F119ED12435E10F00D0DD70 /* SampleApp-tvOS */,
-				1F119EE72435E24800D0DD70 /* SampleApp-macOS */,
 				3D9C429122745894000A6585 /* Products */,
 				1FFFF22323756C0500C9A177 /* Frameworks */,
-				1F58E684244D871300E57F24 /* NuguCore copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2470,14 +1814,8 @@
 				1FFFF02423753F8A00C9A177 /* NuguUIKit.framework */,
 				1FFFF03123753FA200C9A177 /* JadeMarble.framework */,
 				1FFFF03E23753FB200C9A177 /* KeenSense.framework */,
-				1FFFF48D237671F500C9A177 /* SampleApp-iOS.app */,
 				1FFFF523237676BE00C9A177 /* NuguTests.xctest */,
 				73152F9A23E0405900F843C3 /* NuguAgents.framework */,
-				1F119EA02435DF4E00D0DD70 /* SampleApp-WatchOS.app */,
-				1F119EA32435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app */,
-				1F119EB22435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex */,
-				1F119ED02435E10F00D0DD70 /* SampleApp-tvOS.app */,
-				1F119EE62435E24800D0DD70 /* SampleApp-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2650,63 +1988,6 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
-		A1505090241626F100671568 /* Display */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4B7237672F100C9A177 /* DisplayCommonTemplate.swift */,
-				1FFFF4B8237672F100C9A177 /* DisplayListTemplate.swift */,
-				1FFFF4B5237672F100C9A177 /* DisplayBodyTemplate.swift */,
-				1FFFF4B6237672F100C9A177 /* DisplayBodyListTemplate.swift */,
-				A1DAC4E823A3722700F8D638 /* DisplayWeatherTemplate.swift */,
-				A18B7A5D23A75BEC007801E6 /* DisplayWeatherListTemplate.swift */,
-			);
-			path = Display;
-			sourceTree = "<group>";
-		};
-		A15050912416270B00671568 /* AudioPlayerDisplay */ = {
-			isa = PBXGroup;
-			children = (
-				A15050942416272500671568 /* AudioPlayerTemplate.swift */,
-				A15050CE241B2B7000671568 /* AudioPlayerLyricsTemplate.swift */,
-				A15050D0241B2BCF00671568 /* AudioPlayerSettingsTemplate.swift */,
-				A15050922416272400671568 /* AudioPlayerUpdateMetadataPayload.swift */,
-			);
-			path = AudioPlayerDisplay;
-			sourceTree = "<group>";
-		};
-		A17B06552394D1EF00D739E9 /* AsrBeep */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF4D9237672F100C9A177 /* asrStart.wav */,
-				1FFFF4DA237672F100C9A177 /* asrSuccess.wav */,
-				1FFFF4DB237672F100C9A177 /* asrFail.wav */,
-			);
-			path = AsrBeep;
-			sourceTree = "<group>";
-		};
-		A17B06562394D20200D739E9 /* LocalTts */ = {
-			isa = PBXGroup;
-			children = (
-				A17B06582394D22700D739E9 /* device_GW_error_001.wav */,
-				A17B06572394D22700D739E9 /* device_GW_error_002.wav */,
-				A17B065A2394D22700D739E9 /* device_GW_error_003.wav */,
-				A17B065B2394D22700D739E9 /* device_GW_error_004.wav */,
-				A17B06592394D22700D739E9 /* device_GW_error_005.wav */,
-				A17B065D2394D22800D739E9 /* device_GW_error_006.wav */,
-				A17B065C2394D22800D739E9 /* poc_end_error.wav */,
-			);
-			path = LocalTts;
-			sourceTree = "<group>";
-		};
-		A17B06D0239E28BA00D739E9 /* MediaPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				A17B06D1239E28DB00D739E9 /* ASRBeepPlayer.swift */,
-				A17B06D3239E28EB00D739E9 /* LocalTTSAgent.swift */,
-			);
-			path = MediaPlayer;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2787,100 +2068,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F119E9F2435DF4E00D0DD70 /* SampleApp-WatchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F119EC92435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS" */;
-			buildPhases = (
-				1F119E9E2435DF4E00D0DD70 /* Resources */,
-				1F119EC82435DF4F00D0DD70 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F119EA62435DF4E00D0DD70 /* PBXTargetDependency */,
-			);
-			name = "SampleApp-WatchOS";
-			productName = "SampleApp-WatchOS";
-			productReference = 1F119EA02435DF4E00D0DD70 /* SampleApp-WatchOS.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		1F119EA22435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F119EC52435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS WatchKit App" */;
-			buildPhases = (
-				1F119EA12435DF4E00D0DD70 /* Resources */,
-				1F119EC42435DF4F00D0DD70 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F119EB52435DF4F00D0DD70 /* PBXTargetDependency */,
-			);
-			name = "SampleApp-WatchOS WatchKit App";
-			productName = "SampleApp-WatchOS WatchKit App";
-			productReference = 1F119EA32435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		1F119EB12435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F119EC12435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS WatchKit Extension" */;
-			buildPhases = (
-				1F119EAE2435DF4F00D0DD70 /* Sources */,
-				1F119EAF2435DF4F00D0DD70 /* Frameworks */,
-				1F119EB02435DF4F00D0DD70 /* Resources */,
-				1F58E68A244D877E00E57F24 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SampleApp-WatchOS WatchKit Extension";
-			productName = "SampleApp-WatchOS WatchKit Extension";
-			productReference = 1F119EB22435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		1F119ECF2435E10F00D0DD70 /* SampleApp-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F119EDF2435E11000D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-tvOS" */;
-			buildPhases = (
-				1F119ECC2435E10F00D0DD70 /* Sources */,
-				1F119ECD2435E10F00D0DD70 /* Frameworks */,
-				1F119ECE2435E10F00D0DD70 /* Resources */,
-				1F119F4C243C522D00D0DD70 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F119F4B243C522D00D0DD70 /* PBXTargetDependency */,
-				1F9D35FE24444EDB00EFF4FD /* PBXTargetDependency */,
-				1F9D360224444EDB00EFF4FD /* PBXTargetDependency */,
-			);
-			name = "SampleApp-tvOS";
-			productName = "SampleApp-tvOS";
-			productReference = 1F119ED02435E10F00D0DD70 /* SampleApp-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		1F119EE52435E24800D0DD70 /* SampleApp-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F119EF32435E24900D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-macOS" */;
-			buildPhases = (
-				1F119EE22435E24800D0DD70 /* Sources */,
-				1F119EE32435E24800D0DD70 /* Frameworks */,
-				1F119EE42435E24800D0DD70 /* Resources */,
-				1F119F42243C505700D0DD70 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F119F41243C505600D0DD70 /* PBXTargetDependency */,
-				1F119F7824441E9F00D0DD70 /* PBXTargetDependency */,
-				1F1386542444390600E7FC14 /* PBXTargetDependency */,
-			);
-			name = "SampleApp-macOS";
-			productName = "SampleApp-macOS";
-			productReference = 1F119EE62435E24800D0DD70 /* SampleApp-macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		1FFFEFFC23753F1800C9A177 /* NuguCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FFFF00223753F1800C9A177 /* Build configuration list for PBXNativeTarget "NuguCore" */;
@@ -3002,35 +2189,6 @@
 			productReference = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1FFFF48C237671F500C9A177 /* SampleApp-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FFFF49E237671FE00C9A177 /* Build configuration list for PBXNativeTarget "SampleApp-iOS" */;
-			buildPhases = (
-				1FFFF489237671F500C9A177 /* Sources */,
-				1FFFF48A237671F500C9A177 /* Frameworks */,
-				1FFFF48B237671F500C9A177 /* Resources */,
-				1FFFF51E237674E000C9A177 /* Embed Frameworks */,
-				1F1008CC2379028900D90FEE /* ShellScript */,
-				1F10092C237939E300D90FEE /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FFFF511237674DF00C9A177 /* PBXTargetDependency */,
-				1FFFF515237674DF00C9A177 /* PBXTargetDependency */,
-				1FFFF519237674DF00C9A177 /* PBXTargetDependency */,
-				1FFFF51D237674DF00C9A177 /* PBXTargetDependency */,
-				1F1008F52379247800D90FEE /* PBXTargetDependency */,
-				1F1008F92379247800D90FEE /* PBXTargetDependency */,
-				73152FA023E0405900F843C3 /* PBXTargetDependency */,
-			);
-			name = "SampleApp-iOS";
-			packageProductDependencies = (
-			);
-			productName = SampleApp;
-			productReference = 1FFFF48D237671F500C9A177 /* SampleApp-iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		1FFFF522237676BE00C9A177 /* NuguTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FFFF528237676BE00C9A177 /* Build configuration list for PBXNativeTarget "NuguTests" */;
@@ -3085,21 +2243,6 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "SK Telecom Co., Ltd.";
 				TargetAttributes = {
-					1F119E9F2435DF4E00D0DD70 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					1F119EA22435DF4E00D0DD70 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					1F119EB12435DF4F00D0DD70 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					1F119ECF2435E10F00D0DD70 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					1F119EE52435E24800D0DD70 = {
-						CreatedOnToolsVersion = 11.4;
-					};
 					1FFFEFFC23753F1800C9A177 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -3116,9 +2259,6 @@
 						CreatedOnToolsVersion = 11.0;
 					};
 					1FFFF03D23753FB200C9A177 = {
-						CreatedOnToolsVersion = 11.0;
-					};
-					1FFFF48C237671F500C9A177 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 					1FFFF522237676BE00C9A177 = {
@@ -3151,61 +2291,12 @@
 				1FFFF02323753F8A00C9A177 /* NuguUIKit */,
 				1FFFF03023753FA200C9A177 /* JadeMarble */,
 				1FFFF03D23753FB200C9A177 /* KeenSense */,
-				1FFFF48C237671F500C9A177 /* SampleApp-iOS */,
 				1FFFF522237676BE00C9A177 /* NuguTests */,
-				1F119E9F2435DF4E00D0DD70 /* SampleApp-WatchOS */,
-				1F119EA22435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App */,
-				1F119EB12435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension */,
-				1F119ECF2435E10F00D0DD70 /* SampleApp-tvOS */,
-				1F119EE52435E24800D0DD70 /* SampleApp-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F119E9E2435DF4E00D0DD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EA12435DF4E00D0DD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EAC2435DF4F00D0DD70 /* Assets.xcassets in Resources */,
-				1F119EAA2435DF4E00D0DD70 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EB02435DF4F00D0DD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EBE2435DF4F00D0DD70 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119ECE2435E10F00D0DD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EDD2435E11000D0DD70 /* LaunchScreen.storyboard in Resources */,
-				1F119EDA2435E11000D0DD70 /* Assets.xcassets in Resources */,
-				1F119ED82435E10F00D0DD70 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EE42435E24800D0DD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EED2435E24900D0DD70 /* Assets.xcassets in Resources */,
-				1F119EF02435E24900D0DD70 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FFFEFFB23753F1800C9A177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3251,35 +2342,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FFFF48B237671F500C9A177 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FFFF505237672F100C9A177 /* asrStart.wav in Resources */,
-				1FFFF4E4237672F100C9A177 /* DisplayBodyView.xib in Resources */,
-				1FFFF503237672F100C9A177 /* LaunchScreen.storyboard in Resources */,
-				1FFFF4E6237672F100C9A177 /* DisplayListViewCell.xib in Resources */,
-				1FFFF506237672F100C9A177 /* asrSuccess.wav in Resources */,
-				1FFFF507237672F100C9A177 /* asrFail.wav in Resources */,
-				A17B06612394D22800D739E9 /* device_GW_error_003.wav in Resources */,
-				1FFFF4E7237672F100C9A177 /* DisplayBodyListViewCell.xib in Resources */,
-				1FFFF4EA237672F100C9A177 /* DisplayBodyListView.xib in Resources */,
-				A17B065F2394D22800D739E9 /* device_GW_error_001.wav in Resources */,
-				1FFFF502237672F100C9A177 /* Assets.xcassets in Resources */,
-				A17B06642394D22800D739E9 /* device_GW_error_006.wav in Resources */,
-				A17B06602394D22800D739E9 /* device_GW_error_005.wav in Resources */,
-				1FFFF504237672F100C9A177 /* Main.storyboard in Resources */,
-				A18B7A6223A77117007801E6 /* DisplayWeatherListView.xib in Resources */,
-				A17B06632394D22800D739E9 /* poc_end_error.wav in Resources */,
-				A17B065E2394D22800D739E9 /* device_GW_error_002.wav in Resources */,
-				A17B06622394D22800D739E9 /* device_GW_error_004.wav in Resources */,
-				1FFFF4F1237672F100C9A177 /* DisplayListView.xib in Resources */,
-				A1DAC4E723A371CE00F8D638 /* DisplayWeatherView.xib in Resources */,
-				A18B7A6623A77144007801E6 /* DisplayWeatherListViewCell.xib in Resources */,
-				1FFFF4F4237672F100C9A177 /* DisplayAudioPlayerView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FFFF521237676BE00C9A177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3297,42 +2359,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F1008CC2379028900D90FEE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		1F10092C237939E300D90FEE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NattyLog.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 		1F2E8010238FCD8E00569C59 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3357,34 +2383,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F119EAE2435DF4F00D0DD70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EBC2435DF4F00D0DD70 /* NotificationController.swift in Sources */,
-				1F119EBA2435DF4F00D0DD70 /* ExtensionDelegate.swift in Sources */,
-				1F119EB82435DF4F00D0DD70 /* InterfaceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119ECC2435E10F00D0DD70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119ED52435E10F00D0DD70 /* ViewController.swift in Sources */,
-				1F119ED32435E10F00D0DD70 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F119EE22435E24800D0DD70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F119EEB2435E24800D0DD70 /* ViewController.swift in Sources */,
-				1F119EE92435E24800D0DD70 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FFFEFF923753F1800C9A177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3549,56 +2547,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FFFF489237671F500C9A177 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A18B7A6023A75D35007801E6 /* DisplayWeatherListView.swift in Sources */,
-				1FFFF500237672F100C9A177 /* UserDefaultsWrapper.swift in Sources */,
-				1FFFF4E1237672F100C9A177 /* MainViewController.swift in Sources */,
-				1FFFF4E5237672F100C9A177 /* DisplayBodyListViewCell.swift in Sources */,
-				1FFFF4FD237672F100C9A177 /* NuguDisplayPlayerController.swift in Sources */,
-				A17B06D4239E28EB00D739E9 /* LocalTTSAgent.swift in Sources */,
-				1FFFF4FF237672F100C9A177 /* UserDefaults+Romaine.swift in Sources */,
-				7547B703240CD5C200C57A34 /* Dictionary+Convenience.swift in Sources */,
-				1FFFF4EE237672F100C9A177 /* DisplayListTemplate.swift in Sources */,
-				A1B741BA23E1641500D862F7 /* DisplayControllable.swift in Sources */,
-				1FFFF4F2237672F100C9A177 /* DisplayView.swift in Sources */,
-				1FFFF4EC237672F100C9A177 /* DisplayBodyListTemplate.swift in Sources */,
-				A1B86FF82390B3C100F6BD11 /* NuguAudioSessionManager.swift in Sources */,
-				A15050972416272500671568 /* AudioPlayerTemplate.swift in Sources */,
-				A1DAC4E523A371B600F8D638 /* DisplayWeatherView.swift in Sources */,
-				A1DAC4E923A3722700F8D638 /* DisplayWeatherTemplate.swift in Sources */,
-				1FFFF4EF237672F100C9A177 /* DisplayAudioPlayerView.swift in Sources */,
-				A18B7A5E23A75BEC007801E6 /* DisplayWeatherListTemplate.swift in Sources */,
-				1FFFF4DF237672F100C9A177 /* SettingViewController.swift in Sources */,
-				A15050D1241B2BCF00671568 /* AudioPlayerSettingsTemplate.swift in Sources */,
-				1FFFF4FE237672F100C9A177 /* AppDelegate.swift in Sources */,
-				1FFFF4E0237672F100C9A177 /* IntroViewController.swift in Sources */,
-				A15050952416272500671568 /* AudioPlayerUpdateMetadataPayload.swift in Sources */,
-				1FFFF4F0237672F100C9A177 /* DisplayBodyView.swift in Sources */,
-				1FFFF4F5237672F100C9A177 /* NuguToastManager.swift in Sources */,
-				1FFFF4F9237672F100C9A177 /* SampleAppError.swift in Sources */,
-				A1ED44592384FD24002A1F75 /* NuguLocationManager.swift in Sources */,
-				1FFFF4ED237672F100C9A177 /* DisplayCommonTemplate.swift in Sources */,
-				1FFFF4E3237672F100C9A177 /* NuguWebView.swift in Sources */,
-				1FFFF4FC237672F100C9A177 /* NuguCentralManager.swift in Sources */,
-				1FFFF4E8237672F100C9A177 /* DisplayListViewCell.swift in Sources */,
-				A15050CF241B2B7000671568 /* AudioPlayerLyricsTemplate.swift in Sources */,
-				1FFFF501237672F100C9A177 /* UserDefaults+Standard.swift in Sources */,
-				1FFFF4E2237672F100C9A177 /* WebViewController.swift in Sources */,
-				1FFFF4F3237672F100C9A177 /* DisplayListView.swift in Sources */,
-				1FFFF4E9237672F100C9A177 /* DisplayBodyListView.swift in Sources */,
-				1FFFF4FA237672F100C9A177 /* SampleApp.swift in Sources */,
-				A18B7A6423A77135007801E6 /* DisplayWeatherListViewCell.swift in Sources */,
-				1FFFF4F8237672F100C9A177 /* ImageDataLoader.swift in Sources */,
-				1FFFF4EB237672F100C9A177 /* DisplayBodyTemplate.swift in Sources */,
-				A17B06D2239E28DB00D739E9 /* ASRBeepPlayer.swift in Sources */,
-				1FFFF4F6237672F100C9A177 /* UIColor+Convenience.swift in Sources */,
-				1FFFF4F7237672F100C9A177 /* Int+Convenience.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FFFF51F237676BE00C9A177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3707,56 +2655,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F1008F52379247800D90FEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF03023753FA200C9A177 /* JadeMarble */;
-			targetProxy = 1F1008F42379247800D90FEE /* PBXContainerItemProxy */;
-		};
-		1F1008F92379247800D90FEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 1F1008F82379247800D90FEE /* PBXContainerItemProxy */;
-		};
-		1F119EA62435DF4E00D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F119EA22435DF4E00D0DD70 /* SampleApp-WatchOS WatchKit App */;
-			targetProxy = 1F119EA52435DF4E00D0DD70 /* PBXContainerItemProxy */;
-		};
-		1F119EB52435DF4F00D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F119EB12435DF4F00D0DD70 /* SampleApp-WatchOS WatchKit Extension */;
-			targetProxy = 1F119EB42435DF4F00D0DD70 /* PBXContainerItemProxy */;
-		};
-		1F119F41243C505600D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 1F119F40243C505600D0DD70 /* PBXContainerItemProxy */;
-		};
-		1F119F4B243C522D00D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 1F119F4A243C522D00D0DD70 /* PBXContainerItemProxy */;
-		};
-		1F119F7824441E9F00D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73152F9923E0405900F843C3 /* NuguAgents */;
-			targetProxy = 1F119F7724441E9F00D0DD70 /* PBXContainerItemProxy */;
-		};
-		1F1386542444390600E7FC14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF00923753F3100C9A177 /* NuguClientKit */;
-			targetProxy = 1F1386532444390600E7FC14 /* PBXContainerItemProxy */;
-		};
-		1F9D35FE24444EDB00EFF4FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73152F9923E0405900F843C3 /* NuguAgents */;
-			targetProxy = 1F9D35FD24444EDB00EFF4FD /* PBXContainerItemProxy */;
-		};
-		1F9D360224444EDB00EFF4FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF00923753F3100C9A177 /* NuguClientKit */;
-			targetProxy = 1F9D360124444EDB00EFF4FD /* PBXContainerItemProxy */;
-		};
 		1FF29FB52445823A009C07A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
@@ -3771,26 +2669,6 @@
 			isa = PBXTargetDependency;
 			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
 			targetProxy = 1FF29FBD24458244009C07A9 /* PBXContainerItemProxy */;
-		};
-		1FFFF511237674DF00C9A177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF03D23753FB200C9A177 /* KeenSense */;
-			targetProxy = 1FFFF510237674DF00C9A177 /* PBXContainerItemProxy */;
-		};
-		1FFFF515237674DF00C9A177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF00923753F3100C9A177 /* NuguClientKit */;
-			targetProxy = 1FFFF514237674DF00C9A177 /* PBXContainerItemProxy */;
-		};
-		1FFFF519237674DF00C9A177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF01623753F7D00C9A177 /* NuguLoginKit */;
-			targetProxy = 1FFFF518237674DF00C9A177 /* PBXContainerItemProxy */;
-		};
-		1FFFF51D237674DF00C9A177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFF02323753F8A00C9A177 /* NuguUIKit */;
-			targetProxy = 1FFFF51C237674DF00C9A177 /* PBXContainerItemProxy */;
 		};
 		1FFFF52E2376779200C9A177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3822,301 +2700,9 @@
 			target = 1FFFF02323753F8A00C9A177 /* NuguUIKit */;
 			targetProxy = 1FFFF5392376779200C9A177 /* PBXContainerItemProxy */;
 		};
-		73152FA023E0405900F843C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73152F9923E0405900F843C3 /* NuguAgents */;
-			targetProxy = 73152F9F23E0405900F843C3 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		1F119EA82435DF4E00D0DD70 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F119EA92435DF4E00D0DD70 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-		1F119ED62435E10F00D0DD70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F119ED72435E10F00D0DD70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1F119EDB2435E11000D0DD70 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F119EDC2435E11000D0DD70 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1F119EEE2435E24900D0DD70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F119EEF2435E24900D0DD70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1FFFF4D3237672F100C9A177 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FFFF4D4237672F100C9A177 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1FFFF4D5237672F100C9A177 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FFFF4D6237672F100C9A177 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		1F119EC22435DF4F00D0DD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INFOPLIST_FILE = "SampleApp-WatchOS WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Debug;
-		};
-		1F119EC32435DF4F00D0DD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INFOPLIST_FILE = "SampleApp-WatchOS WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		1F119EC62435DF4F00D0DD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				IBSC_MODULE = SampleApp_WatchOS_WatchKit_Extension;
-				INFOPLIST_FILE = "SampleApp-WatchOS WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Debug;
-		};
-		1F119EC72435DF4F00D0DD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				IBSC_MODULE = SampleApp_WatchOS_WatchKit_Extension;
-				INFOPLIST_FILE = "SampleApp-WatchOS WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		1F119ECA2435DF4F00D0DD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1F119ECB2435DF4F00D0DD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-WatchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		1F119EE02435E11000D0DD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "SampleApp-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.4;
-			};
-			name = Debug;
-		};
-		1F119EE12435E11000D0DD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "SampleApp-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.4;
-			};
-			name = Release;
-		};
-		1F119EF42435E24900D0DD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-macOS/SampleApp_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "SampleApp-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1F119EF52435E24900D0DD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-macOS/SampleApp_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "SampleApp-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sktelecom.romaine.SampleApp-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		1FFFF00323753F1800C9A177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4667,68 +3253,6 @@
 			};
 			name = Release;
 		};
-		1FFFF49F237671FE00C9A177 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-iOS/Supporting Files/SampleApp.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "SampleApp-iOS/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sktelecom.romaine.SampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1FFFF4A0237671FE00C9A177 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-iOS/Supporting Files/SampleApp.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QUEYTE2JMS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "SampleApp-iOS/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sktelecom.romaine.SampleApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		1FFFF529237676BE00C9A177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5004,51 +3528,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F119EC12435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F119EC22435DF4F00D0DD70 /* Debug */,
-				1F119EC32435DF4F00D0DD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F119EC52435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F119EC62435DF4F00D0DD70 /* Debug */,
-				1F119EC72435DF4F00D0DD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F119EC92435DF4F00D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-WatchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F119ECA2435DF4F00D0DD70 /* Debug */,
-				1F119ECB2435DF4F00D0DD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F119EDF2435E11000D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F119EE02435E11000D0DD70 /* Debug */,
-				1F119EE12435E11000D0DD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F119EF32435E24900D0DD70 /* Build configuration list for PBXNativeTarget "SampleApp-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F119EF42435E24900D0DD70 /* Debug */,
-				1F119EF52435E24900D0DD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1FFFF00223753F1800C9A177 /* Build configuration list for PBXNativeTarget "NuguCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -5099,15 +3578,6 @@
 			buildConfigurations = (
 				1FFFF04423753FB200C9A177 /* Debug */,
 				1FFFF04523753FB200C9A177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FFFF49E237671FE00C9A177 /* Build configuration list for PBXNativeTarget "SampleApp-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FFFF49F237671FE00C9A177 /* Debug */,
-				1FFFF4A0237671FE00C9A177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,44 @@
+target 'SampleApp-iOS' do
+	platform :ios, '10.0'
+
+	use_frameworks!
+
+	pod 'NuguClientKit', :path => '../'
+	pod 'NuguUIKit', :path => '../'
+	pod 'NuguLoginKit', :path => '../'
+	pod 'JadeMarble', :path => '../'
+	pod 'KeenSense', :path => '../'
+	pod 'NuguAgents', :path => '../'
+	pod 'NuguCore', :path => '../'
+end
+
+target 'SampleApp-Mac' do
+	platform :osx, '10.12'
+
+	use_frameworks!
+
+	pod 'NuguClientKit', :path => '../'
+	pod 'NuguAgents', :path => '../'
+	pod 'NuguCore', :path => '../'
+end
+
+target 'SampleApp-tvOS' do
+	platform :tvos, '11.0'
+
+	use_frameworks!
+
+	pod 'NuguClientKit', :path => '../'
+	pod 'NuguAgents', :path => '../'
+	pod 'NuguCore', :path => '../'
+end	
+
+target 'SampleApp-watchOS WatchKit Extension' do
+	platform :watchos, '6.0'
+
+	use_frameworks!
+
+	pod 'NuguClientKit', :path => '../'
+	pod 'NuguAgents', :path => '../'
+	pod 'NuguCore', :path => '../'
+end	
+
