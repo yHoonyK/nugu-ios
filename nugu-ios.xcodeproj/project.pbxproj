@@ -11,7 +11,6 @@
 		1F1008CF2379221500D90FEE /* NuguClientKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F1008D02379221700D90FEE /* KeenSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */; };
 		1F1008D12379221700D90FEE /* KeenSense.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03E23753FB200C9A177 /* KeenSense.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F1008E82379237F00D90FEE /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
 		1F1008F22379247800D90FEE /* JadeMarble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03123753FA200C9A177 /* JadeMarble.framework */; };
 		1F1008F32379247800D90FEE /* JadeMarble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF03123753FA200C9A177 /* JadeMarble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F1008F62379247800D90FEE /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
@@ -38,7 +37,6 @@
 		1F119F3F243C505600D0DD70 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F119F48243C522C00D0DD70 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
 		1F119F49243C522D00D0DD70 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F119F7024441DE300D0DD70 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
 		1F119F7524441E9F00D0DD70 /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
 		1F119F7624441E9F00D0DD70 /* NuguAgents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F1386512444390600E7FC14 /* NuguClientKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFF00A23753F3100C9A177 /* NuguClientKit.framework */; };
@@ -82,6 +80,12 @@
 		1FD1CFF723BDC0660000FB8C /* DialogStateAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF3722375707000C9A177 /* DialogStateAggregator.swift */; };
 		1FD4A97C23A0C2FD002EB56D /* NuguClientKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4A97B23A0C2FD002EB56D /* NuguClientKit.swift */; };
 		1FD4A98423A22576002EB56D /* NuguCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4A98323A22576002EB56D /* NuguCore.swift */; };
+		1FF29FB22445823A009C07A9 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
+		1FF29FB32445823A009C07A9 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FF29FB724458243009C07A9 /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
+		1FF29FB824458243009C07A9 /* NuguAgents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FF29FBB24458243009C07A9 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
+		1FF29FBC24458244009C07A9 /* NuguCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FFFF00E23753F3100C9A177 /* NuguClientKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFF00C23753F3100C9A177 /* NuguClientKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FFFF01B23753F7D00C9A177 /* NuguLoginKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFF01923753F7D00C9A177 /* NuguLoginKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FFFF02823753F8A00C9A177 /* NuguUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFF02623753F8A00C9A177 /* NuguUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -235,8 +239,6 @@
 		73152FDE23E045C700F843C3 /* TimeUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF3262375707000C9A177 /* TimeUUID.swift */; };
 		73152FE223E0482000F843C3 /* KeyedDecodingContainerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF3242375707000C9A177 /* KeyedDecodingContainerExtension.swift */; };
 		73152FE623E0491C00F843C3 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5237F8239649940058F0B9 /* NSObject+Rx.swift */; };
-		73152FE923E05D1100F843C3 /* NuguCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFEFFD23753F1800C9A177 /* NuguCore.framework */; };
-		73152FED23E05D9700F843C3 /* NuguAgents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73152F9A23E0405900F843C3 /* NuguAgents.framework */; };
 		7315301323E11EDF00F843C3 /* MediaUrlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E7FFE238EA6E300569C59 /* MediaUrlDataSource.swift */; };
 		7315301423E11EDF00F843C3 /* MediaOpusStreamDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E8000238EA70400569C59 /* MediaOpusStreamDataSource.swift */; };
 		7315301523E11EDF00F843C3 /* MediaPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFF2312375703000C9A177 /* MediaPlayable.swift */; };
@@ -416,13 +418,6 @@
 			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
 			remoteInfo = NuguCore;
 		};
-		1F119F7224441DE300D0DD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
-			remoteInfo = NuguCore;
-		};
 		1F119F7724441E9F00D0DD70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D9C428722745894000A6585 /* Project object */;
@@ -451,7 +446,21 @@
 			remoteGlobalIDString = 1FFFF00923753F3100C9A177;
 			remoteInfo = NuguClientKit;
 		};
-		1FFFF3E42375737A00C9A177 /* PBXContainerItemProxy */ = {
+		1FF29FB42445823A009C07A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D9C428722745894000A6585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
+			remoteInfo = NuguCore;
+		};
+		1FF29FB924458243009C07A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D9C428722745894000A6585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73152F9923E0405900F843C3;
+			remoteInfo = NuguAgents;
+		};
+		1FF29FBD24458244009C07A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D9C428722745894000A6585 /* Project object */;
 			proxyType = 1;
@@ -535,20 +544,6 @@
 			remoteGlobalIDString = 73152F9923E0405900F843C3;
 			remoteInfo = NuguAgents;
 		};
-		73152FEB23E05D1100F843C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FFFEFFC23753F1800C9A177;
-			remoteInfo = NuguCore;
-		};
-		73152FEF23E05D9700F843C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73152F9923E0405900F843C3;
-			remoteInfo = NuguAgents;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -596,6 +591,39 @@
 				1F9D360024444EDB00EFF4FD /* NuguClientKit.framework in Embed Frameworks */,
 				1F119F49243C522D00D0DD70 /* NuguCore.framework in Embed Frameworks */,
 				1F9D35FC24444EDB00EFF4FD /* NuguAgents.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F58E68A244D877E00E57F24 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF29FB62445823A009C07A9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1FF29FB32445823A009C07A9 /* NuguCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF29FBF24458244009C07A9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1FF29FBC24458244009C07A9 /* NuguCore.framework in Embed Frameworks */,
+				1FF29FB824458243009C07A9 /* NuguAgents.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,6 +713,7 @@
 		1F2E803D2397A27300569C59 /* KeywordDetectorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordDetectorState.swift; sourceTree = "<group>"; };
 		1F2E803F2397A2E500569C59 /* KeywordDetectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordDetectorDelegate.swift; sourceTree = "<group>"; };
 		1F31FD7B2424CBD8009593EB /* UpstreamSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstreamSpec.swift; sourceTree = "<group>"; };
+		1F58E684244D871300E57F24 /* NuguCore copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NuguCore copy-Info.plist"; path = "/Users/yonghoonkwon/git_work/clone/nugu-ios/NuguCore copy-Info.plist"; sourceTree = "<absolute>"; };
 		1F5DD4A9240CEAF500719FBC /* AudioPlayerAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerAgentSpec.swift; sourceTree = "<group>"; };
 		1F5DD4AB240CF0D600719FBC /* MockPlaySyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlaySyncManager.swift; sourceTree = "<group>"; };
 		1F5DD4AD240CF7D100719FBC /* ASRAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRAgentSpec.swift; sourceTree = "<group>"; };
@@ -1025,7 +1054,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F119F7024441DE300D0DD70 /* NuguCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1060,8 +1088,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73152FED23E05D9700F843C3 /* NuguAgents.framework in Frameworks */,
-				1F1008E82379237F00D90FEE /* NuguCore.framework in Frameworks */,
+				1FF29FBB24458243009C07A9 /* NuguCore.framework in Frameworks */,
+				1FF29FB724458243009C07A9 /* NuguAgents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1129,7 +1157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73152FE923E05D1100F843C3 /* NuguCore.framework in Frameworks */,
+				1FF29FB22445823A009C07A9 /* NuguCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2424,6 +2452,7 @@
 				1F119EE72435E24800D0DD70 /* SampleApp-macOS */,
 				3D9C429122745894000A6585 /* Products */,
 				1FFFF22323756C0500C9A177 /* Frameworks */,
+				1F58E684244D871300E57F24 /* NuguCore copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2799,11 +2828,11 @@
 				1F119EAE2435DF4F00D0DD70 /* Sources */,
 				1F119EAF2435DF4F00D0DD70 /* Frameworks */,
 				1F119EB02435DF4F00D0DD70 /* Resources */,
+				1F58E68A244D877E00E57F24 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F119F7324441DE300D0DD70 /* PBXTargetDependency */,
 			);
 			name = "SampleApp-WatchOS WatchKit Extension";
 			productName = "SampleApp-WatchOS WatchKit Extension";
@@ -2880,13 +2909,13 @@
 				1FFFF00623753F3100C9A177 /* Sources */,
 				1FFFF00723753F3100C9A177 /* Frameworks */,
 				1FFFF00823753F3100C9A177 /* Resources */,
-				1F1008CB2379025600D90FEE /* ShellScript */,
+				1FF29FBF24458244009C07A9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1FFFF3E52375737A00C9A177 /* PBXTargetDependency */,
-				73152FF023E05D9700F843C3 /* PBXTargetDependency */,
+				1FF29FBA24458243009C07A9 /* PBXTargetDependency */,
+				1FF29FBE24458244009C07A9 /* PBXTargetDependency */,
 			);
 			name = NuguClientKit;
 			packageProductDependencies = (
@@ -3034,11 +3063,12 @@
 				73152F9623E0405900F843C3 /* Sources */,
 				73152F9723E0405900F843C3 /* Frameworks */,
 				73152F9823E0405900F843C3 /* Resources */,
+				1FF29FB62445823A009C07A9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73152FEC23E05D1100F843C3 /* PBXTargetDependency */,
+				1FF29FB52445823A009C07A9 /* PBXTargetDependency */,
 			);
 			name = NuguAgents;
 			productName = NuguAgents;
@@ -3267,23 +3297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F1008CB2379025600D90FEE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
-		};
 		1F1008CC2379028900D90FEE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3724,11 +3737,6 @@
 			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
 			targetProxy = 1F119F4A243C522D00D0DD70 /* PBXContainerItemProxy */;
 		};
-		1F119F7324441DE300D0DD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 1F119F7224441DE300D0DD70 /* PBXContainerItemProxy */;
-		};
 		1F119F7824441E9F00D0DD70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73152F9923E0405900F843C3 /* NuguAgents */;
@@ -3749,10 +3757,20 @@
 			target = 1FFFF00923753F3100C9A177 /* NuguClientKit */;
 			targetProxy = 1F9D360124444EDB00EFF4FD /* PBXContainerItemProxy */;
 		};
-		1FFFF3E52375737A00C9A177 /* PBXTargetDependency */ = {
+		1FF29FB52445823A009C07A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 1FFFF3E42375737A00C9A177 /* PBXContainerItemProxy */;
+			targetProxy = 1FF29FB42445823A009C07A9 /* PBXContainerItemProxy */;
+		};
+		1FF29FBA24458243009C07A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73152F9923E0405900F843C3 /* NuguAgents */;
+			targetProxy = 1FF29FB924458243009C07A9 /* PBXContainerItemProxy */;
+		};
+		1FF29FBE24458244009C07A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
+			targetProxy = 1FF29FBD24458244009C07A9 /* PBXContainerItemProxy */;
 		};
 		1FFFF511237674DF00C9A177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3808,16 +3826,6 @@
 			isa = PBXTargetDependency;
 			target = 73152F9923E0405900F843C3 /* NuguAgents */;
 			targetProxy = 73152F9F23E0405900F843C3 /* PBXContainerItemProxy */;
-		};
-		73152FEC23E05D1100F843C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FFFEFFC23753F1800C9A177 /* NuguCore */;
-			targetProxy = 73152FEB23E05D1100F843C3 /* PBXContainerItemProxy */;
-		};
-		73152FF023E05D9700F843C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73152F9923E0405900F843C3 /* NuguAgents */;
-			targetProxy = 73152FEF23E05D9700F843C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3896,7 +3904,7 @@
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -3923,7 +3931,7 @@
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -3947,7 +3955,7 @@
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -3971,7 +3979,7 @@
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -4112,75 +4120,8 @@
 		1FFFF00323753F1800C9A177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				"FRAMEWORK_SEARCH_PATHS[sdk=appletv*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=watch*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INFOPLIST_FILE = NuguCore/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				"LIBRARY_SEARCH_PATHS[sdk=appletv*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NuguCore/Libraries/Opus",
-				);
-				"LIBRARY_SEARCH_PATHS[sdk=iphone*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NuguCore/Libraries/Opus",
-				);
-				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NuguCore/Libraries/Opus",
-				);
-				"LIBRARY_SEARCH_PATHS[sdk=watch*]" = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NuguCore/Libraries/Opus",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 0.8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sktelecom.romaine.NuguCore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos watchsimulator watchos iphonesimulator iphoneos";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1FFFF00423753F1800C9A177 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -4243,7 +4184,80 @@
 				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos watchsimulator watchos iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		1FFFF00423753F1800C9A177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[sdk=appletv*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphone*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=watch*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = NuguCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[sdk=appletv*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuguCore/Libraries/Opus/tvOS",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphone*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuguCore/Libraries/Opus/iOS",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuguCore/Libraries/Opus/Mac",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=watch*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuguCore/Libraries/Opus/watchOS",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 0.8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sktelecom.romaine.NuguCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos watchsimulator watchos iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};

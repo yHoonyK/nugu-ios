@@ -158,7 +158,7 @@ private extension MainViewController {
         NuguAudioSessionManager.shared.updateAudioSession()
         
         // Add delegates
-        NuguCentralManager.shared.client.keywordDetector.delegate = self
+//        NuguCentralManager.shared.client.keywordDetector.delegate = self
         NuguCentralManager.shared.client.dialogStateAggregator.add(delegate: self)
         NuguCentralManager.shared.client.asrAgent.add(delegate: self)
         NuguCentralManager.shared.client.textAgent.delegate = self

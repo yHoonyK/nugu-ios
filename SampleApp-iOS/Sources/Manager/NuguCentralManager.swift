@@ -332,47 +332,47 @@ extension NuguCentralManager {
             guard let self = self else { return }
             let result = Result<Void, Error>(catching: {
                 guard isGranted else { throw SampleAppError.recordPermissionError }
-                self.client.keywordDetector.start()
+//                self.client.keywordDetector.start()
             })
             completion?(result)
         }
     }
     
     func stopWakeUpDetector() {
-        client.keywordDetector.stop()
+//        client.keywordDetector.stop()
     }
     
     func setWakeUpWord(rawValue wakeUpWord: Int) {
-        switch wakeUpWord {
-        case Keyword.aria.rawValue:
-            guard
-                let netFile = Bundle.main.url(forResource: "skt_trigger_am_aria", withExtension: "raw"),
-                let searchFile = Bundle.main.url(forResource: "skt_trigger_search_aria", withExtension: "raw") else {
-                    log.debug("keywordSource is invalid")
-                    return
-            }
-            
-            client.keywordDetector.keywordSource = KeywordSource(
-                keyword: .aria,
-                netFileUrl: netFile,
-                searchFileUrl: searchFile
-            )
-        case Keyword.tinkerbell.rawValue:
-            guard
-                let netFile = Bundle.main.url(forResource: "skt_trigger_am_tinkerbell", withExtension: "raw"),
-                let searchFile = Bundle.main.url(forResource: "skt_trigger_search_tinkerbell", withExtension: "raw") else {
-                    log.debug("keywordSource is invalid")
-                    return
-            }
-            
-            client.keywordDetector.keywordSource = KeywordSource(
-                keyword: .tinkerbell,
-                netFileUrl: netFile,
-                searchFileUrl: searchFile
-            )
-        default:
-            return
-        }
+//        switch wakeUpWord {
+//        case Keyword.aria.rawValue:
+//            guard
+//                let netFile = Bundle.main.url(forResource: "skt_trigger_am_aria", withExtension: "raw"),
+//                let searchFile = Bundle.main.url(forResource: "skt_trigger_search_aria", withExtension: "raw") else {
+//                    log.debug("keywordSource is invalid")
+//                    return
+//            }
+//
+//            client.keywordDetector.keywordSource = KeywordSource(
+//                keyword: .aria,
+//                netFileUrl: netFile,
+//                searchFileUrl: searchFile
+//            )
+//        case Keyword.tinkerbell.rawValue:
+//            guard
+//                let netFile = Bundle.main.url(forResource: "skt_trigger_am_tinkerbell", withExtension: "raw"),
+//                let searchFile = Bundle.main.url(forResource: "skt_trigger_search_tinkerbell", withExtension: "raw") else {
+//                    log.debug("keywordSource is invalid")
+//                    return
+//            }
+//
+//            client.keywordDetector.keywordSource = KeywordSource(
+//                keyword: .tinkerbell,
+//                netFileUrl: netFile,
+//                searchFileUrl: searchFile
+//            )
+//        default:
+//            return
+//        }
     }
 }
 
