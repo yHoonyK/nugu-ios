@@ -71,7 +71,7 @@ extension PhoneCallAgent: ContextInfoDelegate {
         
         if let candidates = displayItem?.candidates,
             let candidatesData = try? JSONEncoder().encode(candidates),
-            let candidatesDictionary = try? JSONSerialization.jsonObject(with: candidatesData, options: []) as? [String: AnyHashable] {
+            let candidatesDictionary = try? JSONSerialization.jsonObject(with: candidatesData, options: []) as? [[String: AnyHashable]] {
             
             payload["candidates"] = candidatesDictionary
         }
@@ -120,7 +120,7 @@ private extension PhoneCallAgent {
             }
             
             var candidates: [PhoneCallPerson]?
-            if let candidatesDictionary = payloadDictionary["candidates"] as? [String: AnyHashable],
+            if let candidatesDictionary = payloadDictionary["candidates"] as? [[String: AnyHashable]],
                 let candidatesData = try? JSONSerialization.data(withJSONObject: candidatesDictionary, options: []) {
                 candidates = try? JSONDecoder().decode([PhoneCallPerson].self, from: candidatesData)
             }
