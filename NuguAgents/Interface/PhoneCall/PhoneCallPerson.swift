@@ -26,7 +26,7 @@ public struct PhoneCallPerson: Codable {
         public let open: String?
         public let close: String?
         
-        init(open: String?, close: String?) {
+        public init(open: String?, close: String?) {
             self.open = open
             self.close = close
         }
@@ -36,7 +36,7 @@ public struct PhoneCallPerson: Codable {
         public let time: String
         public let type: String
         
-        init(time: String, type: String) {
+        public init(time: String, type: String) {
             self.time = time
             self.type = type
         }
@@ -46,7 +46,7 @@ public struct PhoneCallPerson: Codable {
         public let label: String?
         public let number: String?
         
-        init(label: String, number: String) {
+        public init(label: String, number: String) {
             self.label = label
             self.number = number
         }
@@ -68,17 +68,17 @@ public struct PhoneCallPerson: Codable {
     
     public let contacts: [Contact]?
     
-    init(name: String,
-         type: String,
-         profileImgUrl: String?,
-         category: String?,
-         address: String?,
-         businessHours: BusinessHours?,
-         history: History?,
-         numInCallHistory: String,
-         token: String,
-         score: String?,
-         contacts: [Contact]?
+    public init(name: String,
+                type: String,
+                profileImgUrl: String?,
+                category: String?,
+                address: String?,
+                businessHours: BusinessHours?,
+                history: History?,
+                numInCallHistory: String,
+                token: String,
+                score: String?,
+                contacts: [Contact]?
     ) {
         self.name = name
         self.type = type
@@ -97,3 +97,4 @@ public struct PhoneCallPerson: Codable {
         self.contacts = contacts
     }
 }
+
