@@ -56,6 +56,10 @@
 		1F9C5B8823FA82D90086CC04 /* ExtensionAgentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8723FA82D90086CC04 /* ExtensionAgentSpec.swift */; };
 		1F9C5B8A23FBA3A20086CC04 /* TextAgentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8923FBA3A20086CC04 /* TextAgentSpec.swift */; };
 		1F9C5B8C23FBA7400086CC04 /* MockFocusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C5B8B23FBA7400086CC04 /* MockFocusManager.swift */; };
+		1FCF2D68247BB12C00795FC7 /* MessageAgent+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF2D65247BB12C00795FC7 /* MessageAgent+Event.swift */; };
+		1FCF2D69247BB12C00795FC7 /* MessageAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF2D66247BB12C00795FC7 /* MessageAgent.swift */; };
+		1FCF2D6A247BB12C00795FC7 /* MessageContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF2D67247BB12C00795FC7 /* MessageContact.swift */; };
+		1FCF2D6D247BB13800795FC7 /* MessageAgentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF2D6C247BB13800795FC7 /* MessageAgentProtocol.swift */; };
 		1FD1CFD423A3506C0000FB8C /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFD323A3506C0000FB8C /* KeychainHelper.swift */; };
 		1FD1CFE823AE30300000FB8C /* NuguOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFE723AE30300000FB8C /* NuguOAuthClient.swift */; };
 		1FD1CFEB23AE3C060000FB8C /* ClientCredentialsGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CFEA23AE3C060000FB8C /* ClientCredentialsGrant.swift */; };
@@ -572,6 +576,10 @@
 		1F9C5B8723FA82D90086CC04 /* ExtensionAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAgentSpec.swift; sourceTree = "<group>"; };
 		1F9C5B8923FBA3A20086CC04 /* TextAgentSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAgentSpec.swift; sourceTree = "<group>"; };
 		1F9C5B8B23FBA7400086CC04 /* MockFocusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFocusManager.swift; sourceTree = "<group>"; };
+		1FCF2D65247BB12C00795FC7 /* MessageAgent+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageAgent+Event.swift"; sourceTree = "<group>"; };
+		1FCF2D66247BB12C00795FC7 /* MessageAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageAgent.swift; sourceTree = "<group>"; };
+		1FCF2D67247BB12C00795FC7 /* MessageContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContact.swift; sourceTree = "<group>"; };
+		1FCF2D6C247BB13800795FC7 /* MessageAgentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageAgentProtocol.swift; sourceTree = "<group>"; };
 		1FD1CFD223A32FF50000FB8C /* PULL_REQUEST_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PULL_REQUEST_TEMPLATE.md; sourceTree = "<group>"; };
 		1FD1CFD323A3506C0000FB8C /* KeychainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		1FD1CFDF23A788770000FB8C /* CODEOWNERS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
@@ -1122,6 +1130,7 @@
 				1FFFF3542375707000C9A177 /* Display */,
 				1FFFF3592375707000C9A177 /* Text */,
 				1FFFF3402375707000C9A177 /* Location */,
+				1FCF2D64247BB12C00795FC7 /* Message */,
 			);
 			path = CapabilityAgents;
 			sourceTree = "<group>";
@@ -1164,6 +1173,24 @@
 				7EDE17822456638400F6CEC2 /* CryptoUtilSpec.swift */,
 			);
 			path = NuguCore;
+			sourceTree = "<group>";
+		};
+		1FCF2D64247BB12C00795FC7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF2D65247BB12C00795FC7 /* MessageAgent+Event.swift */,
+				1FCF2D66247BB12C00795FC7 /* MessageAgent.swift */,
+				1FCF2D67247BB12C00795FC7 /* MessageContact.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1FCF2D6B247BB13800795FC7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF2D6C247BB13800795FC7 /* MessageAgentProtocol.swift */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 		1FD1CFD523A388570000FB8C /* Helper */ = {
@@ -1476,7 +1503,6 @@
 			isa = PBXGroup;
 			children = (
 				1FFFF30D2375707000C9A177 /* MediaPlayer */,
-				1FFFF3122375707000C9A177 /* OpusPlayer */,
 				1FFFF3172375707000C9A177 /* Audio */,
 				1F9C5B6923E42F660086CC04 /* PropertyWrappers */,
 				1FFFF3202375707000C9A177 /* Extension */,
@@ -1492,15 +1518,6 @@
 				1FD4A98323A22576002EB56D /* NuguCore.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		1FFFF30C2375707000C9A177 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1FFFF30D2375707000C9A177 /* MediaPlayer */,
-				1FFFF3172375707000C9A177 /* Audio */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		1FFFF30D2375707000C9A177 /* MediaPlayer */ = {
@@ -2208,6 +2225,7 @@
 				1FFFF2632375703000C9A177 /* Display */,
 				1FFFF2682375703000C9A177 /* Text */,
 				1FFFF24D2375703000C9A177 /* Location */,
+				1FCF2D6B247BB13800795FC7 /* Message */,
 				1FFFF2672375703000C9A177 /* CapabilityAgentable.swift */,
 				1FFFF25C2375703000C9A177 /* CapabilityAgentCategory.swift */,
 				1FFFF23C2375703000C9A177 /* CapabilityAgentProperty.swift */,
@@ -3001,8 +3019,6 @@
 				7E4382542418DAB200053A0D /* PlayStack.swift in Sources */,
 				7315302F23E11EDF00F843C3 /* FocusChannelDelegate.swift in Sources */,
 				1FFFF3882375707000C9A177 /* SharedBufferIndex.swift in Sources */,
-				7315304423E11EDF00F843C3 /* Eventable.swift in Sources */,
-				1FFFF3852375707000C9A177 /* OpusPlayerConst.swift in Sources */,
 				7315302923E11EDF00F843C3 /* NetworkError.swift in Sources */,
 				7315302023E11EDF00F843C3 /* TimeIntervallic.swift in Sources */,
 				735A4CC0241172F1004E7A41 /* NuguApiProvider.swift in Sources */,
@@ -3233,12 +3249,14 @@
 				7315307423E1248300F843C3 /* TTSAgentProtocol.swift in Sources */,
 				7E2471012435DAC200640F5E /* ASROptions.swift in Sources */,
 				7E5F488E243C379C00118054 /* SoundAgentDataSource.swift in Sources */,
+				1FCF2D6A247BB12C00795FC7 /* MessageContact.swift in Sources */,
 				7315306023E1248300F843C3 /* ExtensionAgentDelegate.swift in Sources */,
 				7315306823E1248300F843C3 /* AudioPlayerAgentProtocol.swift in Sources */,
 				73152FCF23E0416100F843C3 /* TextAgent+Event.swift in Sources */,
 				7315306B23E1248300F843C3 /* ASRAgentProtocol.swift in Sources */,
 				73152FB023E0413F00F843C3 /* AudioPlayerDisplayManageable.swift in Sources */,
 				1F31FD7A241F5774009593EB /* TextAgentSourceItem.swift in Sources */,
+				1FCF2D69247BB12C00795FC7 /* MessageAgent.swift in Sources */,
 				73152FDE23E045C700F843C3 /* TimeUUID.swift in Sources */,
 				7E0E0B082437077F00198FCB /* EndPointDetectable.swift in Sources */,
 				73152FC023E0414700F843C3 /* ASRNotifyResult.swift in Sources */,
@@ -3255,6 +3273,7 @@
 				7315305123E1246F00F843C3 /* DisplayAgentDelegate.swift in Sources */,
 				73152FC323E0414F00F843C3 /* SystemAgent+Event.swift in Sources */,
 				7E5F4896243C3C8A00118054 /* SoundAgent.swift in Sources */,
+				1FCF2D68247BB12C00795FC7 /* MessageAgent+Event.swift in Sources */,
 				7E5F4894243C399600118054 /* SoundState.swift in Sources */,
 				7315306D23E1248300F843C3 /* ASRState.swift in Sources */,
 				7315307223E1248300F843C3 /* SystemAgentDelegate.swift in Sources */,
@@ -3264,6 +3283,7 @@
 				7315306F23E1248300F843C3 /* ASRError.swift in Sources */,
 				73152FB723E0414700F843C3 /* ClientEndPointDetector.swift in Sources */,
 				7E35D79024622B4E003289A2 /* Eventable.swift in Sources */,
+				1FCF2D6D247BB13800795FC7 /* MessageAgentProtocol.swift in Sources */,
 				7315307523E1248300F843C3 /* TTSAgentDelegate.swift in Sources */,
 				73152FCC23E0415B00F843C3 /* DisplayRenderingInfo.swift in Sources */,
 				736508652462F7FA00EF4549 /* SktOpusParser.swift in Sources */,
