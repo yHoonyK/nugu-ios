@@ -22,9 +22,9 @@ import Foundation
 
 import NuguCore
 
-/// Extension-agent handles directives that not defined by other capability-agents
+/// `ExtensionAgent` handles directives that not defined by other capability-agents.
 public protocol ExtensionAgentProtocol: CapabilityAgentable {
-    /// The object that acts as the delegate of extension-agent
+    /// The object that acts as the delegate of `ExtensionAgent`
     var delegate: ExtensionAgentDelegate? { get set }
     
     // Send event to specific play with custom data.

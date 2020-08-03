@@ -22,7 +22,7 @@ import Foundation
 
 import NuguCore
 
-/// The `DisplayAgent` handles directives for controlling template display.
+/// `DisplayAgent` handles directives for controlling template display.
 public protocol DisplayAgentProtocol: CapabilityAgentable {
     /// The object that acts as the delegate of extension-agent
     var delegate: DisplayAgentDelegate? { get set }

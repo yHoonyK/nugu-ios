@@ -20,7 +20,7 @@
 
 import Foundation
 
-/// Chips-agent handles directives for displaying grammer guide on voice chrome view.
+/// `ChipsAgent` handles directives for displaying grammer guide on voice chrome view.
 public protocol ChipsAgentProtocol: CapabilityAgentable {
     /// Adds a delegate to be notified of `ChipsAgentItem` changes.
     /// - Parameter delegate: The object to add.

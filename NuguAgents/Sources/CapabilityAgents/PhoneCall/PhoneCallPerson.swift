@@ -20,6 +20,7 @@
 
 import Foundation
 
+/// The model that corresponds to contact in the `PhoneCallAgent`
 public struct PhoneCallPerson: Codable {
 
     // MARK: PersonType

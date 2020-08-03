@@ -20,6 +20,7 @@
 
 import Foundation
 
+/// `MediaPlayerAgent` is needed to play media by external media-player.
 protocol MediaPlayerAgentProtocol: CapabilityAgentable {
     /// <#Description#>
     var delegate: MediaPlayerAgentDelegate? { get set }

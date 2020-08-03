@@ -24,6 +24,6 @@ import Foundation
 public protocol AudioPlayerAgentDelegate: class {
     ///  Used to notify the observer of state changes.
     /// - Parameter state: The new AudioPlayerState of the `AudioPlayerAgent`
-    /// - Parameter dialogRequestId: The `dialogRequestId` for state.
+    /// - Parameter dialogRequestId: The `dialogRequestId` for the directive.
     func audioPlayerAgentDidChange(state: AudioPlayerState, dialogRequestId: String)
 }

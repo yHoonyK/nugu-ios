@@ -20,10 +20,28 @@
 
 import Foundation
 
+/// The  `PhoneCallAgentDelegate` protocol defines methods that action when `PhoneCallAgent` receives a directive or needs a context.
 public protocol PhoneCallAgentDelegate: class {
+    /// Request the state of calls for context.
+    /// This function should return as soon as possible to reduce request delay.
     func phoneCallAgentRequestState() -> PhoneCallState
+    
+    /// Request `PhoneCallTemplate` for context.
+    /// This function should return as soon as possible to reduce request delay.
     func phoneCallAgentRequestTemplate() -> PhoneCallTemplate?
     
+    /// Tells the delegate that `PhoneCallAgent` received 'SendCandidates' directive.
+    /// - Parameters:
+    ///   - item: The `item` is object that received the directive.
+    ///   - dialogRequestId: The `dialogRequestId` for the directive.
     func phoneCallAgentDidReceiveSendCandidates(item: PhoneCallCandidatesItem, dialogRequestId: String)
+    
+    /// Tells the delegate that `PhoneCallAgent` received 'MakeCall' directive.
+    /// - Parameters:
+    ///   - callType: `PhoneCallType` about the
+    ///   - recipient: `PhoneCallPerson` about the recipient.
+    ///   - dialogRequestId: The `dialogRequestId` for the directive.
+    /// - Returns: `PhoneCallErrorCode` when client cannot make a call.
+    ///            Return nil if the make a call succeeds
     func phoneCallAgentDidReceiveMakeCall(callType: PhoneCallType, recipient: PhoneCallPerson, dialogRequestId: String) -> PhoneCallErrorCode?
 }

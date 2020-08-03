@@ -34,7 +34,7 @@ public protocol ExtensionAgentDelegate: class {
     /// For more information, see [Backend proxy API Reference].
     func extensionAgentRequestContext() -> [String: AnyHashable]?
     
-    /// Tells the delegate that `ExtensionAgent` received `action` directive
+    /// Tells the delegate that `ExtensionAgent` received 'Action' directive.
     ///
     /// When received any data, must call completion block to send an event.
     /// - Parameter data: The message decoded from json to dictionary received by `action` directive.

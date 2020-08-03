@@ -25,12 +25,12 @@ public protocol TTSAgentDelegate: class {
     /// Used to notify the observer of TTSState changes.
     ///
     /// - Parameter state: The new `TTSState` of the `TTSAgent`
-    /// - Parameter dialogRequestId: <#dialogRequestId description#>
+    /// - Parameter dialogRequestId: The `dialogRequestId` for the directive.
     func ttsAgentDidChange(state: TTSState, dialogRequestId: String)
     
     /// Tells the delegate that `TTSAgent` received TTS directive
     ///
     /// - Parameter text: The text to play.
-    /// - Parameter dialogRequestId: <#dialogRequestId description#>
+    /// - Parameter dialogRequestId: The `dialogRequestId` for the directive.
     func ttsAgentDidReceive(text: String, dialogRequestId: String)
 }

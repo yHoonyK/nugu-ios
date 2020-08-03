@@ -25,6 +25,7 @@ import NuguCore
 public class MediaPlayerAgent: MediaPlayerAgentProtocol {
     public var capabilityAgentProperty: CapabilityAgentProperty = CapabilityAgentProperty(category: .mediaPlayer, version: "1.0")
     
+    // MediaPlayerAgentProtocol
     public weak var delegate: MediaPlayerAgentDelegate?
     
     // private

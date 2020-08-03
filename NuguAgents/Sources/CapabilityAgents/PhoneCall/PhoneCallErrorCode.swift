@@ -20,7 +20,10 @@
 
 import Foundation
 
+/// The error code when processing failed after receiving the 'MakeCall' directive
 public enum PhoneCallErrorCode: String {
+    /// The error with system permission
     case noSystemPermission = "NO_SYSTEM_PERMISSION"
+    /// Not supported call-type
     case callTypeNotSupported = "CALL_TYPE_NOT_SUPPORTED"
 }

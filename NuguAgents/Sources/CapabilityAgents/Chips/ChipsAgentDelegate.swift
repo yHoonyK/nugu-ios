@@ -22,5 +22,9 @@ import Foundation
 
 /// An delegate that appllication can extend to observe chips changes.
 public protocol ChipsAgentDelegate: class {
+    /// Telss the delegate that `ChipsAgent` received 'Render' directive.
+    /// - Parameters:
+    ///   - item: The `item` is object that received the directive.
+    ///   - dialogRequestId: The `dialogRequestId` for the directive.
     func chipsAgentDidReceive(item: ChipsAgentItem, dialogRequestId: String)
 }

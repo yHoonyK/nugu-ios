@@ -20,14 +20,27 @@
 
 import Foundation
 
+/// <#Description#>
 public struct PhoneCallCandidatesItem: Decodable {
     
+    /// <#Description#>
     public let playServiceId: String
+    /// <#Description#>
     public let intent: PhoneCallIntent
+    /// <#Description#>
     public let callType: PhoneCallType?
+    /// <#Description#>
     public let recipientIntended: PhoneCallRecipient?
+    /// <#Description#>
     public let candidates: [PhoneCallPerson]?
     
+    /// <#Description#>
+    /// - Parameters:
+    ///   - playServiceId: The play's unique id
+    ///   - intent: <#intent description#>
+    ///   - callType: <#callType description#>
+    ///   - recipientIntended: <#recipientIntended description#>
+    ///   - candidates: <#candidates description#>
     public init(playServiceId: String, intent: PhoneCallIntent, callType: PhoneCallType?, recipientIntended: PhoneCallRecipient?, candidates: [PhoneCallPerson]?) {
         self.playServiceId = playServiceId
         self.intent = intent

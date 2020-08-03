@@ -20,7 +20,7 @@
 
 import Foundation
 
-/// The `TTSAgent` handles directives for controlling speech playback.
+/// `TTSAgent` handles directives for controlling speech playback.
 public protocol TTSAgentProtocol: CapabilityAgentable {
     /// Returns the current time of the current player item.
     ///

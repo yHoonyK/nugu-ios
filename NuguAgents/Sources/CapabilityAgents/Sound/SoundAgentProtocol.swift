@@ -20,7 +20,7 @@
 
 import Foundation
 
-/// Sound-agent is needed to play beep sound.
+/// `SoundAgent` is needed to play beep sound.
 public protocol SoundAgentProtocol: CapabilityAgentable {
     /// The data source for the beep.
     var dataSource: SoundAgentDataSource? { get set }

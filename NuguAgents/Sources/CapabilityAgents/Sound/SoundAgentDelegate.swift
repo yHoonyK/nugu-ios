@@ -25,6 +25,6 @@ public protocol SoundAgentDelegate: class {
     /// Used to notify the observer of TTSState changes.
     ///
     /// - Parameter state: The new `SoundState` of the `SoundAgent`
-    /// - Parameter dialogRequestId: <#dialogRequestId description#>
+    /// - Parameter dialogRequestId: The `dialogRequestId` for the directive.
     func soundAgentDidChange(state: SoundState, dialogRequestId: String)
 }

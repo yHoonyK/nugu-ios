@@ -22,9 +22,15 @@ import Foundation
 
 import NuguCore
 
+/// `PhoneCallAgent` is needed to make and receive calls.
 public protocol PhoneCallAgentProtocol: CapabilityAgentable {
-    
+    /// The object that acts as the delegate of `PhoneCallAgent`
     var delegate: PhoneCallAgentDelegate? { get set }
     
+    /// Send 'candidatesListed' event as a result of 'SendCandidates' directive.
+    /// - Parameters:
+    ///   - playServiceId: The play's unique id
+    ///   - completion: The completion handler to call when the request is complete.
+    /// - Returns: The dialogReuqestId for request.
     @discardableResult func requestSendCandidates(playServiceId: String, completion: ((StreamDataState) -> Void)?) -> String
 }

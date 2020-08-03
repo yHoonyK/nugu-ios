@@ -22,7 +22,7 @@ import Foundation
 
 import NuguCore
 
-/// Text-agent is needed to send event-based text recognition.
+/// `TextAgent` is needed to send event-based text recognition.
 public protocol TextAgentProtocol: CapabilityAgentable {
     /// The object that acts as the delegate of text-agent
     var delegate: TextAgentDelegate? { get set }
